@@ -1,0 +1,38 @@
+﻿div.PopupMain
+{
+	position:absolute; 
+	left:170px; 
+	top:100px; 
+	width:600px; 
+	z-index:1; 
+	color:#000000; 
+	background-color:#FFFFFF; 
+	display: inline;
+	border: outset 2px #000000;
+	visibility:hidden;
+}
+
+div.PopupTop 
+{
+	width:600px; 
+	height:15px;
+}
+
+div.PopupX 
+{
+	position:relative; 
+	left:585px; 
+	height:15px; 
+	width:15px; 
+	cursor:pointer;
+	border: solid 1px #000000;
+	text-align:center;	
+}
+
+div.PopupText 
+{
+	margin-left: 35px;
+	margin-right: 35px;
+	margin-top: 20px;
+	margin-bottom: 35px;
+}

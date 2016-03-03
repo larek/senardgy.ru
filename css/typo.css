@@ -1,0 +1,72 @@
+HTML,BODY,FORM,TABLE,TR,TD,DIV
+{
+	font-family: Arial,Verdana,Helvetica,sans-serif;
+	font-size: 12px;
+}
+/* Headings */
+h1
+{
+	font-size: 15px;
+	line-height: 1.5em;
+	margin: 0 0 0.5em 0;
+	padding: 0;
+}
+h2
+{
+	font-size: 14px;
+	line-height: 1.5em;
+	margin: 0 0 0.5em 0;
+	padding: 0;
+}
+h3
+{
+	font-size: 13px;
+	line-height: 1.3em;
+	margin: 0 0 0.5em 0;
+	padding: 0;
+}
+h4
+{
+	font-size: 12px;
+	line-height: 1.3em;
+	margin: 0 0 0.25em 0;
+	padding: 0;
+}
+h5
+{
+	font-size: 11px;
+	line-height: 1.3em;
+	margin: 0 0 0.25em 0;
+	padding: 0;
+}
+h6
+{
+	font-size: 10px;
+	line-height: 1.3em;
+	margin: 0 0 0.25em 0;
+	padding: 0;
+}
+A
+{
+	text-decoration: none;
+}
+A:hover
+{
+	text-decoration: underline;
+}
+TD.tdCopyrightLeft A,TD.tdCopyrightLeft A:hover
+{
+	text-decoration: none;
+}
+DIV.divHeaderNavL1 A
+{
+	font-size: 11px;
+}
+SELECT.selLanguage 
+{
+	font-size: 10px;
+}
+INPUT.txtSearch
+{
+	font-size: 10px;
+}

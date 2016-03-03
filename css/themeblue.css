@@ -1,0 +1,130 @@
+h1,h2,h3,h4,h5,h6 
+{
+	color: #474876;
+}
+A,A:Hover
+{
+	color: #0000ff;
+}
+/* Aufteilung Content */
+TD.tdLeftNavigation 
+{
+	background-color: #CCDBEA;
+}
+
+/* Linke Navigation */
+DIV.divBASFLogo 
+{
+	background-color: #004A96;
+	
+	background-image: url(/Style%20Library/Custom/images/logo_basf_darkblue.gif);
+}
+
+DIV.divConicaLogo 
+{
+	/*background-image: url(/Style%20Library/Custom/images/logo_conica.gif);*/
+	
+}
+
+/* Header Navigation Level 1 */
+TR.trHeaderNavL1 
+{
+	background-color: #FAE6B9;
+}
+DIV.divHeaderNavL1 A
+{
+	color: #000;
+}
+TD.tdHeaderNavL1Search
+{
+	color: #fff;
+	
+	background-color: #004A96;
+}
+
+/* Header Navigation Level 2 */
+TR.trHeaderNavL2 
+{
+	background-color: #F2CB7C;
+}
+DIV.divHeaderNavL2 A
+{
+	color: #000;
+}
+/* Header Image */
+TR.trHeaderImage TD 
+{
+	background-image: url(/Style%20Library/Custom/images/homepage.jpg);
+}
+
+/* Teaser Style Definitionen */
+DIV.divTeaserHeader 
+{
+	color: #fff;
+	
+	background-color: #004A96;
+}
+DIV.divTeaserContent
+{
+	 border-color: #CCDBEA;
+	 
+}
+
+/* Copyright */
+TABLE.tblCopyright 
+{
+	background-color: #fae6b9;
+	border-color: #9c9c9c;
+}
+tr.trLegalDisclaimer {
+    border-top: 1px solid #9c9c9c;
+    white-space: nowrap;
+}
+TD.tdCopyrightLeft
+{
+	background-color: #fff;
+	border-color: #9c9c9c;
+}
+TD.tdCopyrightLeft A,TD.tdCopyrightLeft A:hover
+{
+	color: #8D8FA1;
+}
+A.hypArrowLink, A.hypArrowLinkSummary
+{	
+	background-image: url(/Style%20Library/Custom/images/bullet_more_darkblue.gif); 
+}
+A.hypSearch 
+{
+	color: #fff;
+	text-decoration: none;
+	background-image: url(/Style%20Library/Custom/images/arrow.gif); 
+}
+DIV.divLeftNavL A
+{
+	padding-bottom:6px;
+	
+	background-image: url(/Style%20Library/Custom/images/bullet_child.gif);
+}
+DIV A.hypParent
+{
+	background-image: url(/Style%20Library/Custom/images/darkblue_bullet_parent.gif);
+}
+DIV A.hypCurrent
+{
+	background-image: url(/Style%20Library/Custom/images/bullet_current_darkblue.gif);
+	font-weight:bold;
+}
+
+A.SiteMapLevel-1 
+{
+	background-color:#ccdbea;
+}
+
+div.ProductCountryDown
+{	
+	BACKGROUND-IMAGE: url(../Images/bullet_down_darkblue.gif);		
+}
+div.ProductCountryUp
+{	
+	BACKGROUND-IMAGE: url(../Images/bullet_up_darkblue.gif);		
+}

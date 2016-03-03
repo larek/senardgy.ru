@@ -1,0 +1,748 @@
+/* Globale Style Definitionen */
+HTML,BODY,FORM,TABLE,TR,TD,DIV
+{
+	margin: 0px;
+	padding: 0px;	
+}
+HTML,BODY,FORM 
+{
+	height: 100%;
+}
+TABLE TR 
+{
+	vertical-align: top;
+	text-align: left;
+}
+
+/* Link Styles */
+A.hypArrowLink 
+{
+	padding-left: 15px;
+
+	background-position: left top;
+	background-repeat: no-repeat;
+	
+	display: block;
+	
+	cursor:pointer;
+}
+A.hypArrowLinkSummary 
+{
+	padding-left: 15px;
+
+	background-position: left center;
+	background-repeat: no-repeat;
+	
+	cursor:pointer;
+}
+A.hypSearch 
+{
+	padding-left: 10px;
+
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+A.hypCurrentPage
+{
+	font-weight:900;	
+}
+
+/* Aufteilung Content */
+DIV.divContent 
+{
+	height: 100%;
+	width: 944px;
+}
+TABLE.tblContent 
+{
+	height: 100%;
+	width: 100%;
+}
+
+/* Linke Navigation */
+TD.tdLeftNavigation 
+{
+	width: 160px;
+}
+
+DIV.divLeftNavigation 
+{
+	margin-top: 30px;
+	margin-left: 5px;
+}
+
+DIV.divLeftNavigation DIV,DIV.divLeftNavigation A 
+{
+	color: #000000;
+	display:block;
+}
+
+DIV.divLeftNavL DIV 
+{
+	margin-left: 5px;
+}
+
+DIV.divLeftNavL A
+{
+	background-position: left top;
+	background-repeat: no-repeat;
+	padding-left: 14px;
+}
+
+DIV A.hypParent
+{
+}
+
+DIV A.hypCurrent
+{
+}
+
+DIV.divBASFLogo 
+{
+	height: 160px;
+	width: 100%;
+	
+	margin-top: 27px;
+	
+	background-position: left top;
+	background-repeat: no-repeat;
+	display: block;
+}
+DIV.divBASFLogo IMG
+{
+	height: 160px;
+	width: 160px;
+}
+
+DIV.divConicaLogo 
+{
+	height: 45px;
+	width: 160px;
+	
+	margin-top: 100px;
+	
+	background-position: center top;
+	background-repeat: no-repeat;
+	display: block;
+}
+
+/* Header Navigation Level 1 */
+TR.trHeaderNavL1 
+{
+	height: 27px;
+	
+	vertical-align: middle;
+	text-align: right;
+}
+DIV.divHeaderNavL1 A
+{
+	margin-right: 5px;
+	margin-left: 5px;
+}
+TD.tdHeaderNavL1Search
+{
+	vertical-align: middle;
+	
+	text-align: left;
+}
+DIV.divLanguage 
+{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+SELECT.selLanguage 
+{
+
+}
+DIV.divSearch 
+{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+INPUT.txtSearch
+{
+	width: 100px;
+}
+
+/* Header Navigation Level 2 */
+TR.trHeaderNavL2 
+{
+	height: 31px;
+
+	vertical-align: middle;
+}
+DIV.divHeaderNavL2 
+{
+	margin-left: 30px;
+}
+DIV.divHeaderNavL2 A
+{
+	margin-right: 5px;
+	margin-left: 5px;
+}
+/* Header Image */
+TR.trHeaderImage TD 
+{
+	width: 770px;
+	height: 129px;
+	
+	background-position: left top;
+	background-repeat: no-repeat;
+	
+	/* if(headerImage == null)
+	{
+		display: none;
+	}
+	*/
+}
+
+/* Teaser Style Definitionen */
+DIV.divTeaser 
+{
+	width: 194px;
+	margin-top: 10px;
+}
+DIV.divTeaserHeader 
+{	
+	/* Achtung Paddings müssen hier berücksichtigt werden */
+	width: 186px; /* 194px */
+	
+	font-weight: bold;
+	
+	padding-top: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-bottom: 2px;
+}
+DIV.divTeaserContent
+{
+	/* Achtung Paddings müssen hier berücksichtigt werden */
+	width: 184px; /* 194px */
+	
+	padding-top: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-bottom: 2px;
+	
+	border-left: 1px solid;
+	border-right: 1px solid;
+	border-bottom: 1px solid;
+	display:block;
+}
+
+/* Content Style Definitionen */
+DIV.divContentRectangle 
+{
+	margin-top: 10px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 100px;
+}
+
+DIV.divContentRectangleWide
+{
+	margin-top: 10px;
+	margin-left: 30px;
+	margin-right: 0px;
+	margin-bottom: 100px;	
+}
+
+DIV.divBreadcrump 
+{
+	vertical-align: middle;
+}
+DIV.divBreadcrump A
+{
+	
+}
+
+/* Content Style Definitionen */
+DIV.divMainContent 
+{
+	margin-top: 35px;
+}
+
+/* Copyright */
+TD.tdCopyright
+{
+	text-align:center;
+	width:100%;	
+}
+TABLE.tblCopyright 
+{
+	width: 382px;
+	
+	border: 1px solid;
+
+	margin: auto;
+	
+}
+TABLE.tblCopyright TR TD
+{
+	padding-top: 1px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-bottom: 1px;
+}
+tr.trLegalDisclaimer {
+    border-top: 1px solid;
+}
+TD.tdCopyrightLeft
+{
+	width: 10px;
+	
+	border-right: 1px solid;
+}
+
+/* Input Styles */
+input.input_standard
+{
+	margin-top: 1px;
+	margin-right: 0px;
+	margin-bottom: 1px;
+	margin-left: 0px;
+
+	width: 220px;
+	height: 18px;
+	
+	border: solid 1px #787878;
+}
+
+textarea.input_standard
+{
+	margin-top: 1px;
+	margin-right: 0px;
+	margin-bottom: 1px;
+	margin-left: 0px;
+
+	width: 220px;
+	height: 100px;
+	
+	border: solid 1px #787878;
+}
+
+input.input_login
+{
+	margin-top: 1px;
+	margin-right: 0px;
+	margin-bottom: 1px;
+	margin-left: 0px;
+
+	width: 100px;
+	height: 16px;
+	
+	border: solid 1px #787878;
+}
+
+input.formbutton
+{
+	height: 20px;
+	margin:0pt 0pt 0pt 0pt;
+	padding: 0px 2px 0px 2px;
+	border: solid 1px #646464;
+	font-size: 11px;
+}
+
+input.formbutton_Login
+{
+	width: 40px;
+	height: 20px;
+	margin:0pt 0pt 0pt 0pt;
+	padding: 0px 2px 0px 2px;
+	border: solid 1px #646464;
+	font-size: 11px;
+}
+
+/* new type */
+input.formbutton_standard
+{
+	height: 20px;
+	margin:0pt 0pt 0pt 0pt;
+	padding: 0px 2px 0px 2px;
+	border: solid 1px #646464;
+	font-size: 11px;
+}
+
+input.input_standard_error
+{
+	margin-top: 1px;
+	margin-right: 0px;
+	margin-bottom: 1px;
+	margin-left: 0px;
+
+	width: 220px;
+	height: 18px;
+	
+	border: solid 1px #787878;
+	
+	background-color: #eb0303;
+}
+
+textarea.input_standard_error
+{
+	margin-top: 1px;
+	margin-right: 0px;
+	margin-bottom: 1px;
+	margin-left: 0px;
+
+	width: 220px;
+	height: 100px;
+	
+	border: solid 1px #787878;
+	
+	background-color: #eb0303;
+}
+
+
+a.formbutton_Link, a.formbutton_Link:hover
+{
+	width: 250px;
+	
+	color: #000000;
+	background-color:#d4d0c8;
+	
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	
+	border: solid 1px #646464;
+	display:block;
+}
+
+/* Validation Styles */
+.validation_summary 
+{
+	border-right: #eb0303 1px solid;	
+	border-top: #eb0303 1px solid;	
+	display: block;	
+	padding-left: 11px;	
+	font-weight: bold;	
+	font-size: 1em;	
+	margin-bottom: 11px;	
+	padding-bottom: 8px;	
+	border-left: #eb0303 1px solid;	
+	width: 450px;	
+	color: #eb0303;	
+	padding-top: 8px;	
+	border-bottom: #eb0303 1px solid;	
+	height: auto;	
+	background-color: #ffffff;
+}
+
+/* WorlMap Styles */
+
+A.link_with_submenu
+{
+	cursor: pointer;	
+}
+TABLE.menu_table
+{
+	border: 1px solid #000;
+	background-color:#fff;	
+}
+DIV.menu_div
+{
+	padding: 10px;
+	background-color: #transparent;
+	overflow: visible; 
+	position: absolute; 
+}
+DIV.submenu_div
+{
+	padding: 5px; 
+	background-color: #transparent;
+	overflow: visible; 
+	position: absolute;
+}
+
+/* Photo Gallery */
+
+DIV.photoGalleryMain
+{
+}
+
+DIV.photoGalleryRow
+{
+	float:left;
+	margin-bottom:20px;
+	padding-top:10px;
+	width:500px;
+	border-top:solid 1px #787878;
+}
+
+DIV.photoGalleryPicture
+{
+	width:200px;
+	float:left;
+	margin-bottom:20px;
+}
+
+img.photoGallery
+{
+	 border:0px;
+}
+
+DIV.photoGalleryText
+{
+	width:300px;
+	float:left;
+}
+DIV.photoGalleryPaging
+{
+	float:left;
+	width:500px;
+}
+
+DIV.photoGalleryTopLink
+{
+	clear:left;	
+}
+
+/* News Summary */
+
+DIV.newsThumbnail
+{
+	float:left;
+	margin-right:8px;
+}
+
+
+/* Sitemap */
+
+DIV.SiteMapTitle 	
+{
+	PADDING-RIGHT: 20px;	
+	DISPLAY: block;	
+	PADDING-LEFT: 20px;	
+	FONT-WEIGHT: bold;	
+	FONT-SIZE: 12px;	
+	PADDING-BOTTOM: 0px;	
+	MARGIN: 0px auto;	
+	WIDTH: 100%;	
+	PADDING-TOP: 0px;	
+	FONT-FAMILY: arial;	
+	HEIGHT: 24px} 
+	
+DIV#SiteMapContainer 
+{	
+	BORDER-TOP-WIDTH: 3px;		
+	PADDING-RIGHT: 20px;	
+	PADDING-LEFT: 20px;	
+	BORDER-LEFT-WIDTH: 3px;		
+	BORDER-BOTTOM-WIDTH: 3px;	
+	PADDING-BOTTOM: 0px;		
+	WIDTH: 470px;	
+	PADDING-TOP: 0px;	
+	BORDER-RIGHT-WIDTH: 3px} 
+	
+DIV#SiteMapContainer A 
+{	
+	DISPLAY: block;	
+	COLOR: rgb(0,0,0);	
+	HEIGHT: 20px;	
+	TEXT-DECORATION: none;
+	line-height: 18px;
+	} 
+	
+DIV#SiteMapContainer A:link 
+{	
+	TEXT-DECORATION: none} 
+		
+		
+DIV#SiteMapContainer A:active 
+{	
+	TEXT-DECORATION: none} 
+	
+DIV#SiteMapContainer A:visited 
+{	
+	TEXT-DECORATION: none} 
+	
+DIV#SiteMapContainer A:hover 
+{	
+	TEXT-DECORATION: underline} 
+	
+A.SiteMapTopLevel 
+{	
+	MARGIN-TOP: 12px;	
+	FONT-WEIGHT: bold;	
+	TEXT-TRANSFORM: uppercase;
+	line-height: 18px;
+} 
+	
+A.SiteMapLevel-1 
+{	
+	background-color: #ccdbea;
+	PADDING-RIGHT: 2px;	
+	DISPLAY: block;	
+	PADDING-LEFT: 23px;	
+	BACKGROUND-IMAGE: url(../Images/Sitemap/LevelTopIcon.gif);	
+	PADDING-BOTTOM: 0px;	
+	WIDTH: 100%;	
+	PADDING-TOP: 0px;	
+	BACKGROUND-REPEAT: no-repeat} 
+	
+A.SiteMapLevel-2 
+{	
+	PADDING-RIGHT: 2px;	
+	DISPLAY: block;	
+	PADDING-LEFT: 23px;	
+	BACKGROUND-IMAGE: url(../Images/Sitemap/LevelConnector.gif);	
+	PADDING-BOTTOM: 0px;	
+	WIDTH: 100%;	
+	PADDING-TOP: 0px;	
+	BACKGROUND-REPEAT: no-repeat} 
+	
+A.LevelLastConnector 
+{	
+	BACKGROUND-IMAGE: url(../Images/Sitemap/LevelLastConnector.gif)}
+
+div#divLev1 {
+border:0px dotted #FA0000;
+margin-left:0px;
+}
+
+div#divLev2 {
+border:0px dotted #FA0000;
+margin-left:16px;
+}
+
+.LastLeafYes {
+background-color:#FFFFFF;
+}
+
+.LastLeafNo {
+background-image:url(../Images/Sitemap/LastLeaf.gif);
+background-repeat:repeat-y;
+}
+
+
+/*Form Generator Styles */
+HR.SeperatorLinie
+{
+	color:#787878;
+	background:#787878;
+	width:500px;
+	height:1px;
+}
+TD.SeperatorText
+{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+/* Product Finder */
+div.ProductCountryDown
+{	
+	DISPLAY: block;	
+	PADDING-LEFT: 16px;		
+	BACKGROUND-REPEAT: no-repeat;
+	cursor:pointer;
+}
+div.ProductCountryUp
+{	
+	DISPLAY: block;	
+	PADDING-LEFT: 16px;		
+	BACKGROUND-REPEAT: no-repeat;
+	cursor:pointer;
+}
+div.ProductFinderProduct
+{
+	padding-left:25px;
+}
+div.ProductFinderList
+{
+	display:none;
+	border-bottom: solid 1px;
+	margin-bottom: 8px;
+}
+
+/* Content Style Definitionen Teaserless */
+DIV.divContentTeaserless 
+{
+	margin-top: 10px;
+	margin-left: 30px;
+	margin-bottom: 100px;
+}
+/* Color Comparison */
+DIV.ColorComparisonBig
+{
+	float:left;
+	height: 160px;
+	width: 171px;
+	margin-right:18px;
+}
+DIV.ColorComparisonBigLast
+{
+	float:left;
+	height: 160px;
+	width: 171px;
+	margin-bottom:10px;
+}
+DIV.ColorComparisonBigColor
+{
+	float:left;
+	height: 130px;
+	width: 100%;
+	border:solid 1px black;
+}
+DIV.ColorComparisonBigText
+{
+	float:left;
+	margin-top:3px;
+	width: 100%;
+	font-size:16px;
+	margin-bottom:7px;
+}
+DIV.ColorComparisonBigRemove
+{
+	background-color:#ffffff;
+	border-right:solid 1px black;
+	border-bottom:solid 1px black;
+	text-align:center;
+	height: 15px;
+	width: 15px;
+	cursor:pointer;
+}
+DIV.ColorComparisonSmall
+{
+	float:left;
+	height: 80px;
+	width: 80px;
+	margin-right:14px;
+	margin-bottom:10px;
+}
+DIV.ColorComparisonSmallLast
+{
+	float:left;
+	height: 80px;
+	width: 80px;
+	margin-bottom:10px;
+}
+DIV.ColorComparisonSmallColor
+{
+	border:solid 1px black;
+	float:left;
+	height: 50px;
+	width: 100%;
+}
+DIV.ColorComparisonSmallText
+{
+	float:left;
+	width: 100%;
+	margin-top:0px;
+	margin-bottom:0px;
+	font-size:11px;
+	word-wrap:break-word;
+	height:30px;
+}
+DIV.ColorComparisonSmallAdd
+{
+	background-color:#ffffff;
+	border-right:solid 1px black;
+	border-bottom:solid 1px black;
+	text-align:center;
+	height: 15px;
+	width: 15px;
+	cursor:pointer;
+}
