@@ -4,7 +4,7 @@ body,form{
 margin:0;
 }
 body{
-background-color:#FFFFFF;
+background: url('/images/background_texture.png');
 font-family:verdana,arial,helvetica,sans-serif;
 color:#000000;
 }
@@ -4344,4 +4344,14 @@ height:85px;
 .ms-searchresultsareaSeparator{
 background-color:#d6e8ff;
 padding:0px;
+}
+
+.header_block{
+	height: 129px;
+	background: #CCDBEA;
+}
+.header_block img{
+	position: absolute;
+    width: 329px;
+    margin: 33px 40px;
 }

@@ -50,8 +50,10 @@ A.hypCurrentPage
 /* Aufteilung Content */
 DIV.divContent 
 {
-	height: 100%;
-	width: 944px;
+    margin: 0px auto;
+    width: 930px;
+    background: white;
+    box-shadow: 0px 0px 7px silver;
 }
 TABLE.tblContent 
 {

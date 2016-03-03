@@ -45,21 +45,7 @@
                     <col width="770" />
                 </colgroup>
                 <tr>
-                    <td class="noPrint">
-                        <table cellpadding="0" cellspacing="0">
-                            <colgroup>
-                                <col width="14" />
-                            </colgroup>
-                            <tr class="trHeaderNavL1">
-                                <td>
-                                    &#160;</td>
-                            </tr>
-                            <tr class="trHeaderNavL2">
-                                <td>
-                                    &#160;</td>
-                            </tr>
-                        </table>
-                    </td>
+                   
                     <td class="tdLeftNavigation noPrint">
                         <div class="divBASFLogo"><a href="/en/Pages/default.aspx" title="Home"><img src="http://www.senergy.basf.com/Style%20Library/Custom/Images/1x1tr.gif" border="0" width="160px" height="160px" alt="Home" /></a></div>
 
@@ -78,7 +64,11 @@
                             <tr class="trHeaderNavL1 noPrint">
                                 <td>
                                     <div class="divHeaderNavL1">
-                                        <a title="http://www.basf.com" href="http://www.basf.com" target="_blank">BASF Global</a>|<a title="http://www.construction-chemicals.basf.com/" href="http://www.construction-chemicals.basf.com/" target="_blank">Construction Chemicals</a>|<a title="http://admin.senergy.basf.com/en/Pages/contact.aspx" href="http://www.senergy.basf.com/en/Pages/contact.aspx" target="_self">Contact</a>|<a title="http://admin.senergy.basf.com/en/Pages/sitemap.aspx" href="http://www.senergy.basf.com/en/Pages/sitemap.aspx" target="_self">Sitemap</a>|<a href="javascript:window.print()">Print</a>
+                                        <a href="#" title="О нас">О нас</a>|
+                                        <a href="#" title="Партнеры">Партнеры</a>|
+                                        <a href="#" title="Новости">Новости</a>|
+                                        <a href="#" title="Контакты">Контакты</a>|
+                                        <a href="#" title="Обратная связь">Обратная связь</a>
                                     </div>
                                 </td>
                                 <td>
@@ -89,7 +79,7 @@
                                 <td class="tdHeaderNavL1Search">
                                     <div class="divSearch">
 
-<input name="ctl00$SearchBox$SearchTextBox" type="text" id="ctl00_SearchBox_SearchTextBox" tabindex="100" class="txtSearch" onKeyPress="return(clickButton('ctl00_SearchBox_SearchButton', event));" />&#160;&nbsp;<a id="ctl00_SearchBox_SearchButton" tabindex="101" class="hypSearch" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$SearchBox$SearchButton&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">Search</a>
+<input name="ctl00$SearchBox$SearchTextBox" type="text" id="ctl00_SearchBox_SearchTextBox" tabindex="100" class="txtSearch" onKeyPress="return(clickButton('ctl00_SearchBox_SearchButton', event));" />&#160;&nbsp;<a id="ctl00_SearchBox_SearchButton" tabindex="101" class="hypSearch" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$SearchBox$SearchButton&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">Поиск</a>
 
 
                                     </div>
@@ -98,15 +88,24 @@
                             <tr class="trHeaderNavL2 noPrint">
                                 <td colspan="3">
                                     <div class="divHeaderNavL2">
-                                        <a href="/en/about_senergy/Pages/default.aspx" title="О нас">О нас</a>|<a href="/en/platinum-ci-systems/Pages/default.aspx" title="Продукция">Продукция</a>|<a href="/en/wall_systems/Pages/default.aspx" title="Системы утепления">Системы утепления</a>|<a href="/en/products/Pages/default.aspx" title="Реставрация">Реставрация</a>|<a href="/en/literature/Pages/default.aspx" title="Техническая документация">Тех. документация</a>|<a href="/en/technical_support/Pages/default.aspx" title="Техническая поддержка">Тех. поддержка</a>|<a href="/en/colors_and_textures/Pages/default.aspx" title="Текстуры и цвета">Текстуры и цвета</a>|<a href="/en/distributors/Pages/default.aspx" title="Фотогалерея">Фотогалерея</a>
+                                        <a href="#" title="Системы утепления">Системы утепления</a>|
+                                        <a href="#" title="Продукция">Продукция</a>|
+                                        <a href="#" title="Реставрация">Реставрация</a>|
+                                        <a href="#" title="Техническая документация">Тех. документация</a>|
+                                        <a href="#" title="Техническая поддержка">Тех. поддержка</a>|
+                                        <a href="#" title="Текстуры и цвета">Текстуры и цвета</a>|
+                                        <a href="#" title="Фотогалерея">Фотогалерея</a>
+                                        
+                                        
                                     </div>
                                 </td>
                             </tr>
                             <tr class="noPrint">
                                 <td colspan="3">
 
-    <div id="ctl00_PlaceHolderPageImage_HeaderImageField1__ControlWrapper_HeaderImage" style="display:inline"><img alt="Senergy EIFS and stucco header" border="0" src="http://www.senergy.basf.com/SiteCollectionImages/SE_header_129.jpg" style="BORDER: 0px solid; ">
-</div>
+    <div class="header_block">
+        <img src="/images/logo_senardgy.png">
+    </div>
 
 
                                 </td>
