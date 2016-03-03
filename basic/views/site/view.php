@@ -7,12 +7,10 @@ $this->title = $title;
 
 ?>
 <?//= SideMenu::widget(['model' => $model_child,'guid' => $guid]); ?>
-<div class='container'>
-<main class=" <?= $divTemplate?>" >
+
+
 
 <h1><?= $model->title;?></h1>
 
 <?= $model->content?>
 
-</main>
-</div>

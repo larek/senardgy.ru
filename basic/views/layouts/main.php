@@ -54,7 +54,7 @@ AppAsset::register($this);
                             <tr class="trHeaderNavL1 noPrint">
                                 <td>
                                     <div class="divHeaderNavL1">
-                                        <a href="#" title="О нас">О нас</a>|
+                                        <?= Html::a('О нас',['site/view','guid' => 'about'])?>|
                                         <a href="#" title="Партнеры">Партнеры</a>|
                                         <a href="#" title="Новости">Новости</a>|
                                         <a href="#" title="Контакты">Контакты</a>|
@@ -78,7 +78,8 @@ AppAsset::register($this);
                             <tr class="trHeaderNavL2 noPrint">
                                 <td colspan="3">
                                     <div class="divHeaderNavL2">
-                                        <a href="#" title="Системы утепления">Системы утепления</a>|
+                                        <?= Html::a('Системы утепления', ['site/view' ,'guid' => 'sistemy-uteplenia']);?>|
+                                       
                                         <a href="#" title="Продукция">Продукция</a>|
                                         <a href="#" title="Реставрация">Реставрация</a>|
                                         <a href="#" title="Техническая документация">Тех. документация</a>|
@@ -94,7 +95,7 @@ AppAsset::register($this);
                                 <td colspan="3">
 
     <div class="header_block">
-        <img src="/images/logo_senardgy.png">
+        <a href='/'><img src="/images/logo_senardgy.png"></a>
     </div>
 
 
@@ -108,7 +109,7 @@ AppAsset::register($this);
                 <div class="divBreadcrump">
 
                 </div>
-                <div class="divMainContent" style="width:100%">
+                <div class="divMainContent" >
                     <?= $content?>
 
                 </div>
