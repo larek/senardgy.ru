@@ -106,3 +106,14 @@ body {
 .timeline .panel-outline .panel-footer {
     display: none;
 }
+
+.divBASFLogo td {
+    padding: 6px;
+}
+.divBASFLogo table {
+    color: white;
+    width: 148px;
+    margin: 28px 13px;
+    position: absolute;
+}
+

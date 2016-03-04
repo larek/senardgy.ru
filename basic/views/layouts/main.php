@@ -37,7 +37,25 @@ AppAsset::register($this);
                 <tr>
                    
                     <td class="tdLeftNavigation noPrint">
-                        <div class="divBASFLogo"></div>
+                        <div class="divBASFLogo">
+                            <table>
+                                <tbody>
+
+                                <tr>
+                                <td><span class="glyphicon glyphicon-earphone"></span></td>
+                                <td>8 (831) 4-397-397</td>
+                                </tr>
+                                <tr>
+                                <td><span class="glyphicon glyphicon-envelope"></span></td>
+                                <td>info@senardgy.ru</td>
+                                </tr>
+                                <tr>
+                                <td><span class="glyphicon glyphicon-map-marker"></span></td>
+                                <td>Н.Новгород,&nbsp;ул. Тимирязева, 29Б</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
 
                         <div class="divLeftNavigation">
 
