@@ -6,8 +6,6 @@ use yii\helpers\Html;
 $this->title = $title;
 
 ?>
-<?//= SideMenu::widget(['model' => $model_child,'guid' => $guid]); ?>
-
 
 <div class="col-md-12">
 <h1><?= $model->title;?></h1>
@@ -16,3 +14,5 @@ $this->title = $title;
 <div class="col-md-12">
 <?= $model->content?>
 </div>
+
+

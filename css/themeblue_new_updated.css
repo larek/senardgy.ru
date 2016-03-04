@@ -618,9 +618,9 @@ TD.tdLeftNavigation
 /* Linke Navigation */
 DIV.divBASFLogo 
 {
-	background-color: #004A96;
+	background-color: #11538F;
 	
-	background-image: url(/Style%20Library/Custom/Images/logo_basf_darkblue.gif);
+	
 }
 
 /* Search-Bereich oben rechts */
@@ -628,7 +628,7 @@ TD.tdHeaderNavL1Search
 {
 	color: #fff;
 	
-	background-color: #004A96;
+	background-color: #11538F;
 }
 DIV A.hypCurrent
 {

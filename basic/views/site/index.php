@@ -7,12 +7,12 @@ $this->title = 'Сенерджи';
 
 ?>
 
-<div><h1>Senergy EIFS, Stucco, Air Barriers&nbsp;</h1></div>
+<div><h1>ООО "Сенарджи-НН"</h1></div>
                     <div>
                     <table cellspacing=0 cellpadding=0 width=740 border=0>
     <tbody>
         <tr>
-            <td style="height:55px;width:408px"><span style="height:60px"><span style="color:#000000">Senergy <a href="/en/wall_systems/Pages/default.aspx"><span style="text-decoration:underline;color:#000000">EIFS</span></a> and <a href="/en/wall_systems/stucco/Pages/default.aspx"><span style="text-decoration:underline;color:#000000">stucco</span></a> are well known throughout the </span><a href="/en/distributors/Pages/default.aspx" target="_blank"><span style="text-decoration:underline;color:#000000">USA</span></a><span style="color:#000000">, </span><a href="/en/Canada/Pages/default.aspx" target="_blank"><span style="text-decoration:underline;color:#000000">Canada</span></a><span style="color:#000000"> and beyond. The Senergy brand is associated with high quality <a href="/en/wall_systems/Pages/default.aspx"><span style="text-decoration:underline;color:#000000">wall systems</span></a>, <a href="/EN/PRODUCTS/Pages/default.aspx"><span style="text-decoration:underline;color:#000000">architectural products</span></a> and the beautiful </span><a href="/en/products/TexturedFinishes/Pages/default.aspx"><span style="text-decoration:underline;color:#000000">finishes</span></a><span style="color:#000000"> that cover them.</span></span></td>
+            <td style="height:55px;width:408px">Компания "Сэнарджи®" является разработчиком и производителем систем наружной теплоизоляции фасадов зданий "Сэнарджи® МвС" и "Сэнарджи® ПпС-3". Системы утепления "Сэнарджи®" полностью сертифицированы и имеют Техническое свидетельство Росстроя России.</td>
             <td rowspan=2 align=center>
             <p style="width:110px"><a href="/en/Canada/Pages/default.aspx"><img style="border-top:0px solid;border-right:0px solid;border-bottom:0px solid;border-left:0px solid" alt="Senergy in Canada" src="http://www.senergy.basf.com/SiteCollectionImages/basf-senergy-canada-thumbnail.jpg"></a><br>
             <img style="border-top:0px solid;border-right:0px solid;vertical-align:top;border-bottom:0px solid;border-left:0px solid" alt="Senergy Communities" src="http://www.senergy.basf.com/en/PublishingImages/communities.jpg"><br>

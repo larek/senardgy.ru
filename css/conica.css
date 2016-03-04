@@ -179,8 +179,8 @@ DIV.divHeaderNavL2
 }
 DIV.divHeaderNavL2 A
 {
-	margin-right: 5px;
-	margin-left: 5px;
+	margin-right: 3px;
+	margin-left: 3px;
 }
 /* Header Image */
 TR.trHeaderImage TD 
@@ -263,6 +263,9 @@ DIV.divMainContent
 {
 	margin-top: 35px;
 	width:740px;
+	padding: 0px 20px 20px 0px;
+	min-height:400px;
+	
 }
 
 /* Copyright */

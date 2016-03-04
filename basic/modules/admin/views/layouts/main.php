@@ -20,7 +20,7 @@ AdminAsset::register($this);
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
-    
+
 </head>
 <body>
 <?php $this->beginBody() ?>
@@ -39,7 +39,7 @@ AdminAsset::register($this);
         'items' => [
             ['label' => 'Главная', 'url' => ['default/index']],
             ['label' => 'Страницы', 'url' => ['pages/index']],
-            ['label' => 'Contact', 'url' => ['/site/contact']],
+            ['label' => 'Новости', 'url' => ['news/index']],
             Yii::$app->user->isGuest ?
                 ['label' => 'Login', 'url' => ['/site/login']] :
                 [

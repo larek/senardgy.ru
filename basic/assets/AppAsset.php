@@ -18,6 +18,7 @@ class AppAsset extends AssetBundle
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
+        'https://fonts.googleapis.com/css?family=Open+Sans:400,700',
         'css/conica.css',
         'css/core.css',
         'css/Menu.css',
@@ -26,6 +27,7 @@ class AppAsset extends AssetBundle
         'css/themeblue.css',
         'css/themeblue_new_updated.css',
         'css/typo.css',
+
         
     ];
     public $js = [
