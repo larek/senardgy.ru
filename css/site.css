@@ -1,6 +1,8 @@
 html,
 body {
     height: 100%;
+    font-family: 'Open Sans',Arial,Verdana,Helvetica,sans-serif;
+    font-size: 12px;
 }
 
 /*.wrap {
@@ -117,3 +119,15 @@ body {
     position: absolute;
 }
 
+.main_banner_txt{
+        position: absolute;
+    margin: 15px 22px;
+    color: white;
+    font-size: 17px;
+    text-shadow: 1px 1px black;
+}
+
+.main_banner_txt > a {
+    font-size: 14px;
+    color:white;
+}
