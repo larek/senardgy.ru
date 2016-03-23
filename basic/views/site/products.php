@@ -9,8 +9,32 @@ $this->title = $title;
 
 ?>
 
+<table class="tblContent" cellpadding="0" cellspacing="0">
+        <tr>
 
-<div class="col-md-12">
+            <td class="tdLeftNavigation noPrint">
+
+                <div class="divLeftNavigation">
+
+                    <div class="divLeftNavL">
+                    	<?= SideMenu::widget(['model' => $model_child,'guid' => $guid]);?>
+                    </div>
+
+                </div>
+            </td>
+            <td>
+                <table cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td colspan="3">
+                            <div class="divContentRectangleWide">
+                                <div class="divBreadcrump">
+
+                                </div>
+                                <div class="divMainContent">
+                                   <div class="col-md-12">
+
+
+<?//content is here ?>
 <h1><?= $model->title;?></h1>
 </div>
 
@@ -90,3 +114,17 @@ $this->title = $title;
 
 <?= $model->content?>
 </div>
+
+<?//content end?>
+
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+</table>
+
+

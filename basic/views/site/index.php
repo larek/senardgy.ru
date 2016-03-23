@@ -8,6 +8,34 @@ $this->title = 'Сенерджи';
 
 ?>
 
+
+
+<table class="tblContent" cellpadding="0" cellspacing="0">
+        <tr>
+
+            <td class="tdLeftNavigation noPrint">
+
+                <div class="divLeftNavigation">
+
+                    <div class="divLeftNavL">
+          <?= SideMenu::widget(['model' => $model_child,'guid' => $guid]); ?>
+
+                    </div>
+
+                </div>
+            </td>
+            <td>
+                <table cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td colspan="3">
+                            <div class="divContentRectangleWide">
+                                <div class="divBreadcrump">
+
+                                </div>
+                                <div class="divMainContent">
+                                   <?// content of this view?>
+
+
 <div class="col-md-12">
   <div class="fotorama"
      data-width="100%"
@@ -104,6 +132,20 @@ $this->title = 'Сенерджи';
 <div class="row">
 <div style='height:100px;width:100%'></div>
 </div>
+
+                                   <?// end content of this view?>
+
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+  </table>
+
+
 
 
 
