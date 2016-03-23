@@ -124,33 +124,28 @@ class SiteController extends Controller
     }
 
     public function actionView(){
-        $guid = Yii::$app->request->get('guid');
-        $model = Pages::find()->andWhere(['guid' => $guid])->one();
 
-        if($model->seo_title==""){ $title = $model->title;}else{$title = $model->seo_title;}
+        $guid = Yii::$app->request->get('guid');
 
         $page = Pages::find()->where(['guid' => $guid])->one();
-        if($page->parent_id == 0){
-            $model_child = Pages::find()->where(['parent_id' => $page->id])->all();
-        }
-        else{
-            $model_child = Pages::find()->where(['parent_id' => $page->parent_id])->all();
-        }
 
-        if(count($model_child)>0){$divTemplate="col-xs-12";}else{$divTemplate="col-xs-12";}
+        $page->seo_title=="" ? $title = $page->title : $title = $page->seo_title;
 
-        if($model->type==""){
-            $viewTemplate = "view";
-        }else{
-            $viewTemplate = $model->type;
-        }
+        $page->parent_id == 0 ? $model_child = Pages::find()->where(['parent_id' => $page->id])->all() : $model_child = Pages::find()->where(['parent_id' => $page->parent_id])->all();
+        
+        count($model_child)>0 ? $divTemplate="col-xs-12" : $divTemplate="col-xs-12";
+
+        $page->type=="" ? $viewTemplate = "view" : $viewTemplate = $page->type;
+
+        $parents_array = $this->getParents($page->id);
 
         return $this->render($viewTemplate, [
-            'model' => $model,
+            'model' => $page,
             'title' => $title,
             'model_child' => $model_child,
             'divTemplate' => $divTemplate,
             'guid' => $guid,
+            'parents_array' => $parents_array,
             ]);
     }
 
@@ -162,6 +157,22 @@ class SiteController extends Controller
             ->setSubject('Обратный звонок с сайта')
             //->setHtmlBody('Заказ - <a href="http://'.$_SERVER['SERVER_NAME'].$url.'">Ссылка на заказ</a>')
             ->send();
+
+    }
+
+    protected function getParents($id){
+        static $parents_array = [];
+        $model = Pages::find()->where(['id' => $id])->one();
+        if($model->parent_id !== 0) {
+            $page = Pages::find()->where(['id' => $model->parent_id])->one();
+            $parents_array[] = [
+                'label' => $page->title,
+                'url' => $page->guid,
+                ];
+                $this->getParents($page->id);
+        }
+       
+        return array_reverse($parents_array);
 
     }
 }

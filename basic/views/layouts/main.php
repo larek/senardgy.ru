@@ -115,7 +115,47 @@ AppAsset::register($this);
         </tr>
     </table>
 
-    <?= $content?>
+   
+<table class="tblContent" cellpadding="0" cellspacing="0">
+        <tr>
+
+            <td class="tdLeftNavigation noPrint">
+
+                <div class="divLeftNavigation">
+
+                    <div class="divLeftNavL">
+                    <?= isset($this->params['SideMenu']) ? $this->params['SideMenu'] : "";?>
+
+                    </div>
+
+                </div>
+            </td>
+            <td>
+                <table cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td colspan="3">
+                            <div class="divContentRectangleWide">
+                                <div class="divBreadcrump">
+
+                                </div>
+                                <div class="divMainContent">
+                         <div class="col-md-12">
+                        <?= Breadcrumbs::widget([
+                            'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
+                        ]) ?>
+                        </div>
+                               <?= $content?>
+
+
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+  </table>
 </div>
 
                
