@@ -2,10 +2,21 @@
 use app\components\SideMenu;
 use yii\helpers\Html;
 /* @var $this yii\web\View */
-
+$this->registerJsFile('/js/fotorama.js', ['depends' => [\yii\web\JqueryAsset::className()]]);
+$this->registerCssFile('/css/fotorama.css');
 $this->title = 'Сенерджи';
 
 ?>
+
+<div class="col-md-12">
+  <div class="fotorama"
+     data-width="100%"
+     data-ratio="3/1"
+     data-fit="cover">
+    <img src="/images/senardgy_banner.jpg" data-caption='Дом руковишниковых'>
+    <img src="/images/senardgy_banner.jpg">
+  </div>
+</div>
 
 <div class='col-md-12'><h1>ООО "Сенарджи-НН"</h1></div>
                     

@@ -58,6 +58,8 @@ AppAsset::register($this);
                         </div>
 
                         <div class="divLeftNavigation">
+                        
+                        <div class="divLeftNavL"><a href="/en/platinum-ci-systems/Pages/default.aspx" title="Platinum CI Systems">Platinum CI Systems</a><a href="/en/wall_systems/eifs_drainage/Pages/default.aspx" title="Water Drainage EIFS">Water Drainage EIFS</a><a href="/en/wall_systems/pb/Pages/default.aspx" title="EIFS - Class PB">EIFS - Class PB</a><a href="/en/wall_systems/stucco/Pages/default.aspx" title="Stucco Wall Systems">Stucco Wall Systems</a><a href="/en/wall_systems/stucco_resurfacing_systems/Pages/default.aspx" title="Stucco Resurfacing Systems">Stucco Resurfacing Systems</a><a href="/en/wall_systems/cement_board_stucco/Pages/default.aspx" title="Cement Board Stucco Systems">Cement Board Stucco Systems</a><a href="/en/wall_systems/textured_acrylic/Pages/default.aspx" title="Textured Acrylic Surfacing Systems">Textured Acrylic Surfacing Systems</a><a href="http://www.senergy.basf.com/en/literature/tech_bulletins/Pages/default.aspx#08" title="Warranties">Warranties</a></div>
 
                         </div>
                     </td>
@@ -94,6 +96,17 @@ AppAsset::register($this);
                                     </div>
                                 </td>
                             </tr>
+                            
+                            <tr class="noPrint">
+                                <td colspan="3">
+
+    <div class="header_block">
+        <a href='/'><img src="/images/logo_senardgy.png"></a>
+    </div>
+
+
+                                </td>
+                            </tr>
                             <tr class="trHeaderNavL2 noPrint">
                                 <td colspan="3">
                                     <div class="divHeaderNavL2">
@@ -109,16 +122,6 @@ AppAsset::register($this);
                                         
                                         
                                     </div>
-                                </td>
-                            </tr>
-                            <tr class="noPrint">
-                                <td colspan="3">
-
-    <div class="header_block">
-        <a href='/'><img src="/images/logo_senardgy.png"></a>
-    </div>
-
-
                                 </td>
                             </tr>
 

@@ -5,8 +5,9 @@ use yii\helpers\Html;
 
 $this->title = $title;
 
+$this->assetBundles['sideMenu'] = SideMenu::widget(['model' => $model_child,'guid' => $guid]); 
+
 ?>
-<?//= SideMenu::widget(['model' => $model_child,'guid' => $guid]); ?>
 
 
 <div class="col-md-12">

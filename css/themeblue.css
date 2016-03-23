@@ -88,27 +88,27 @@ TD.tdCopyrightLeft A,TD.tdCopyrightLeft A:hover
 }
 A.hypArrowLink, A.hypArrowLinkSummary
 {	
-	background-image: url(/Style%20Library/Custom/images/bullet_more_darkblue.gif); 
+	background-image: url(http://www.senergy.basf.com/Style%20Library/Custom/images/bullet_more_darkblue.gif); 
 }
 A.hypSearch 
 {
 	color: #fff;
 	text-decoration: none;
-	background-image: url(/Style%20Library/Custom/images/arrow.gif); 
+	background-image: url(http://www.senergy.basf.com/Style%20Library/Custom/images/arrow.gif); 
 }
 DIV.divLeftNavL A
 {
 	padding-bottom:6px;
 	
-	background-image: url(/Style%20Library/Custom/images/bullet_child.gif);
+	background-image: url(http://www.senergy.basf.com/Style%20Library/Custom/images/bullet_child.gif);
 }
 DIV A.hypParent
 {
-	background-image: url(/Style%20Library/Custom/images/darkblue_bullet_parent.gif);
+	background-image: url(http://www.senergy.basf.com/Style%20Library/Custom/images/darkblue_bullet_parent.gif);
 }
 DIV A.hypCurrent
 {
-	background-image: url(/Style%20Library/Custom/images/bullet_current_darkblue.gif);
+	background-image: url(http://www.senergy.basf.com/Style%20Library/Custom/images/bullet_current_darkblue.gif);
 	font-weight:bold;
 }
 
