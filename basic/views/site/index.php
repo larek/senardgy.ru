@@ -11,10 +11,14 @@ $this->title = 'Сенерджи';
 <div class="col-md-12">
   <div class="fotorama"
      data-width="100%"
-     data-ratio="3/1"
+     data-ratio="2/1"
      data-fit="cover">
-    <img src="/images/senardgy_banner.jpg" data-caption='Дом руковишниковых'>
-    <img src="/images/senardgy_banner.jpg">
+    <img src="/images/slide1.jpg" data-caption='Картинная Галерея А.Шилова (г.Москва, ул.Знаменка, д.5)'>
+    <img src="/images/slide2.jpg" data-caption='Комплекс 17-ти этажных жилых домов (г. Нижний Новгород, микрорайон "Молодежный", Автозаводского р-на)'>
+    <img src="/images/slide3.jpg" >
+    <img src="/images/slide4.jpg" data-caption="Речной вокзал (г.Нижний Новгород, площадь Маркина, д. 15а)">
+    <img src="/images/slide5.jpg" >
+    <img src="/images/slide8.jpg" >
   </div>
 </div>
 
