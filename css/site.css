@@ -131,3 +131,38 @@ body {
     font-size: 14px;
     color:white;
 }
+
+.products_item_wrap {
+    background: #004A96;
+    height:165px;
+    width:165px;
+    padding:10px;
+}
+
+.products_list {
+    padding: 0px;
+    margin: 10px 0px 0px 0px;
+}
+
+.products_list > li {
+    list-style-type: none;
+}
+
+.products_list > li > a{
+    color: white;
+    font-size: 11px;
+}
+
+.products_title, .products_title a {
+    color: white;
+    font-weight: bold;
+}
+
+.products_item_img{
+    width:165px;
+    height:165px;
+}
+
+.notmargin{
+    margin:0px;
+}
