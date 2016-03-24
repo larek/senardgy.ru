@@ -33,7 +33,14 @@ AppAsset::register($this);
 
             <td class="tdLeftNavigation noPrint">
                 <div class="divBASFLogo">
-                    
+                    <ul class='header_submenu'>
+                    <li><?= Html::a('Главная','/')?></li>
+                    <li><?= Html::a('О нас',['site/view','guid' => 'about'])?></li>
+                    <li><?= Html::a('Партнеры',['site/view','guid' => 'partnery'])?></li>
+                    <li><?= Html::a('Новости',['site/view','guid' => 'news']);?></li>
+                    <li><?= Html::a('Контакты',['site/view','guid' => 'contacts'])?></li>
+                    <li><?= Html::a('Обратная связь',['site/view','guid' => 'callback'])?></li>
+                    </ul>
                 </div>
 
             </td>
@@ -48,12 +55,7 @@ AppAsset::register($this);
                     <tr class="trHeaderNavL1 noPrint">
                         <td>
                             <div class="divHeaderNavL1">
-                                <?= Html::a('Главная','/')?>|
-                                    <?= Html::a('О нас',['site/view','guid' => 'about'])?>|
-                                        <?= Html::a('Партнеры',['site/view','guid' => 'partnery'])?>|
-                                            <?= Html::a('Новости',['site/view','guid' => 'news']);?>|
-                                                <?= Html::a('Контакты',['site/view','guid' => 'contacts'])?>|
-                                                    <?= Html::a('Обратная связь',['site/view','guid' => 'callback'])?>
+                                
                             </div>
                         </td>
                         <td>

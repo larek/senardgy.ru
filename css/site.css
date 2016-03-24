@@ -166,3 +166,15 @@ body {
 .notmargin{
     margin:0px;
 }
+
+ul.header_submenu {
+    margin: 28px -13px;
+    display: inline-block;
+}
+
+ul.header_submenu li {
+    list-style-type: none;
+}
+ul.header_submenu a {
+    color: white;
+}
