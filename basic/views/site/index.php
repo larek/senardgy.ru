@@ -25,38 +25,40 @@ $this->params['SideMenu'] = SideMenu::widget(['model' => $model_child,'guid' => 
   </div>
 </div>
 
-<div class='col-md-12'><h1>ООО "Сэнарджи-НН"</h1></div>
-                    
+<br><br>
 <div class="col-md-12">
-    <div class="alert alert-info">
-        <span class='glyphicon glyphicon-info-sign'></span> Компания "Сэнарджи®" является разработчиком и производителем систем наружной теплоизоляции фасадов зданий "Сэнарджи® МвС" и "Сэнарджи® ПпС-3". Системы утепления "Сэнарджи®" полностью сертифицированы и имеют Техническое свидетельство Росстроя России.
-    </div>
+<div class="panel panel-default">
+  <div class="panel-body">
+    <div class="starter-template">
+        <h1>ООО "Сэнарджи-НН"</h1>
+        <p class=""> Компания "Сэнарджи®" является разработчиком и производителем систем наружной теплоизоляции фасадов зданий "Сэнарджи® МвС" и "Сэнарджи® ПпС-3". Системы утепления "Сэнарджи®" полностью сертифицированы и имеют Техническое свидетельство Росстроя России.</p>
+</div>
+  </div>
+</div>
 </div>
 
-<div class="col-md-12">
-    <img src='https://placeholdit.imgix.net/~text?txtsize=50&txt=баннер&w=690&h=200' class='img-responsive'>
-</div>
 
 
 <div class="col-md-4" style="margin-top:20px; text-align:center">
-          <img class="img-circle" src="https://placehold.it/200x200" alt="Generic placeholder image" width="140" height="140">
-          <h2>Заголовок</h2>
-          <p>Краткое описание раздела, которое в общих чертах дает пользователю понимание, что находится в самом разделе и есть ли там нужная ему информация</p>
-          <p><a class="btn btn-default" href="#" role="button">Подробнее »</a></p>
+          <img class="img-circle" src="/images/pirog.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Системы утепления</h2>
+          <p>Системы наружной теплоизоляции фасадов зданий "Сенарджи ПпС", "Сенарджи ПпС-3" <br> и "Сенарджи МвС"</p>
+          <p><?= Html::a('Подробнее »',['site/view', 'guid' => 'sistemy-uteplenia'], ['class' => 'btn btn-default']);?></p>
+          
 </div>
 
 <div class="col-md-4" style="margin-top:20px; text-align:center">
-          <img class="img-circle" src="https://placehold.it/200x200" alt="Generic placeholder image" width="140" height="140">
-          <h2>Заголовок</h2>
-          <p>Краткое описание раздела, которое в общих чертах дает пользователю понимание, что находится в самом разделе и есть ли там нужная ему информация</p>
-          <p><a class="btn btn-default" href="#" role="button">Подробнее »</a></p>
+          <img class="img-circle" src="/images/products_01_wrb.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Продукция</h2>
+          <p>Водо-воздухо отталкивающие грунтовки (праймер), Адгезив, Армирующая стеклотканевая сетка, Декоративно-защитная штукатурка</p>
+          <p><?= Html::a('Подробнее »',['site/view', 'guid' => 'produkcia'], ['class' => 'btn btn-default']);?></p>
 </div>
 
 <div class="col-md-4" style="margin-top:20px; text-align:center">
-          <img class="img-circle" src="https://placehold.it/200x200" alt="Generic placeholder image" width="140" height="140">
-          <h2>Заголовок</h2>
-          <p>Краткое описание раздела, которое в общих чертах дает пользователю понимание, что находится в самом разделе и есть ли там нужная ему информация</p>
-          <p><a class="btn btn-default" href="#" role="button">Подробнее »</a></p>
+          <img class="img-circle" src="/images/colors.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Текстуры и цвета</h2>
+          <p>Мы предлагаем как стандартные цветовые решения так и индивидуальные цвета на заказ</p>
+          <p><?= Html::a('Подробнее »',['site/view', 'guid' => 'tekstury-i-cveta'], ['class' => 'btn btn-default']);?></p>
 </div>
 
 <div class="row">

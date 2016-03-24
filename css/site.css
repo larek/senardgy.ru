@@ -328,3 +328,8 @@ ul.header_submenu a {
     padding: 7px 20px;
     height: 36px;
 }
+
+.starter-template h1 {
+    font-size: 24px;
+    text-align: center;
+}
