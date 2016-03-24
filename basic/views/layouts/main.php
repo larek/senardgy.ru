@@ -190,9 +190,58 @@ AppAsset::register($this);
 <footer>
     <div class="footer" id="footer">
         
-                <div class="col-md-4">
-                    <a href="http://www.tehocenka.ru/registry/fasadnye-sistemy-s-tonkim-narujnym-shtukaturnym-sloem/shtukaturnye-fasadnye-sistemy-na-akrilovoi-osnove" target='_blank'><img src="http://www.tehocenka.ru/img/logo.svg" style='width:140px' alt=""></a>
+                
+                <div class="col-md-2">
+                    <a href="#">
+                        <img src="/images/doc1.gif"  alt="">
+                        <br>
+                        <span>Альбом технических решений</span>
+                    </a>
+
                 </div>
+                 <div class="col-md-2">
+                    <a href="#" >
+                        <img src="/images/sr1_thumb.jpg"  alt="">
+                        <br>
+                        <span>Сертификат соответствия</span>
+                    </a>
+
+                </div>
+                <div class="col-md-2">
+                    <a href="#" >
+                        <img src="/images/doc3.gif" alt="">
+                        <br>
+                        <span>Гигиеническое заключение</span>
+                    </a>
+
+                </div>
+                <div class="col-md-2">
+                    <a href="#" >
+                        <img src="/images/sr_fire_01_thumb.jpg" alt="">
+                        <br>
+                        <span>Сертификат пажарной безопасности</span>
+                    </a>
+
+                </div>
+
+                <div class="col-md-2">
+                    <a href="#" >
+                        <img src="/images/gosstroy.png"  style='height:90px' alt="">
+                        <br>
+                        <span>Техническое сфидетельство на материалы</span>
+                    </a>
+
+                </div>
+
+                <div class="col-md-2">
+                    <a href="#">
+                        <img src="/images/gosstroy.png"  style='height:90px' alt="">
+                        <br>
+                        <span>Техническое сфидетельство на системы утепления</span>
+                    </a>
+
+                </div>
+                
            
         
     </div>
@@ -200,15 +249,14 @@ AppAsset::register($this);
     
     <div class="footer-bottom">
         <div class="footer_bottom_container">
-            <p class="pull-left"> © ООО "Сэнарджи-НН". Все права защищены. <?= date("Y");?> г.</p>
-            <div class="pull-right">
-                <ul class="nav nav-pills payments">
-                    <li><i class="fa fa-cc-visa"></i></li>
-                    <li><i class="fa fa-cc-mastercard"></i></li>
-                    <li><i class="fa fa-cc-amex"></i></li>
-                    <li><i class="fa fa-cc-paypal"></i></li>
-                </ul> 
+            <div class="col-md-6">
+                <p>© ООО "Сэнарджи-НН". Все права защищены. <?= date("Y");?> г.</p>
             </div>
+
+            <div class="col-md-6">    
+                <a href="http://www.tehocenka.ru/registry/fasadnye-sistemy-s-tonkim-narujnym-shtukaturnym-sloem/shtukaturnye-fasadnye-sistemy-na-akrilovoi-osnove" target='_blank'><img src="/images/logo.svg" style="width: 126px;float: right; margin:-5px 0px" alt=""></a>
+            </div>
+
         </div>
     </div>
     <!--/.footer-bottom--> 
