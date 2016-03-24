@@ -23,7 +23,7 @@ $this->params['SideMenu'] = SideMenu::widget(['model' => $model_child,'guid' => 
 <div class="col-md-6">
 	<table>
 		<tr>
-			<td><img src="http://www.senergy.basf.com/en/products/PublishingImages/products_01_wrb.jpg" alt="" class='products_item_img'> </td>
+			<td><img src="/images/products_01_wrb.jpg" alt="" class='products_item_img'> </td>
 			<td>
 				<div class='products_item_wrap'>
 					<span class='products_title'><a href='#'>Водо-воздухо отталкивающие грунтовки (праймер)</a></span>
@@ -40,7 +40,7 @@ $this->params['SideMenu'] = SideMenu::widget(['model' => $model_child,'guid' => 
 <div class="col-md-6">
 	<table>
 		<tr>
-			<td><img src="http://www.senergy.basf.com/en/products/PublishingImages/products_02_abc.jpg" alt="" class='products_item_img'> </td>
+			<td><img src="/images/products_02_abc.jpg" alt="" class='products_item_img'> </td>
 			<td>
 				<div class='products_item_wrap'>
 					<span class='products_title'><a href='#'>Адгезив</a></span>
@@ -60,7 +60,7 @@ $this->params['SideMenu'] = SideMenu::widget(['model' => $model_child,'guid' => 
 <div class="col-md-6">
 	<table>
 		<tr>
-			<td><img src="http://www.senergy.basf.com/en/products/PublishingImages/products_03_mesh.jpg" alt="" class='products_item_img'> </td>
+			<td><img src="/images/products_03_mesh.jpg" alt="" class='products_item_img'> </td>
 			<td>
 				<div class='products_item_wrap'>
 					<span class='products_title'><a href='#'>Армирующая стеклотканевая сетка</a></span>
@@ -74,7 +74,7 @@ $this->params['SideMenu'] = SideMenu::widget(['model' => $model_child,'guid' => 
 <div class="col-md-6">
 	<table>
 		<tr>
-			<td><img src="http://www.senergy.basf.com/en/products/PublishingImages/products_05_textured.jpg" alt="" class='products_item_img'> </td>
+			<td><img src="/images/products_05_textured.jpg" alt="" class='products_item_img'> </td>
 			<td>
 				<div class='products_item_wrap'>
 					<span class='products_title'><a href='#'>Декоративно-защитная штукатурка</a></span>
