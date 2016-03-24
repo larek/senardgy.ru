@@ -254,7 +254,7 @@ AppAsset::register($this);
             </div>
 
             <div class="col-md-6">    
-                <a href="http://www.tehocenka.ru/registry/fasadnye-sistemy-s-tonkim-narujnym-shtukaturnym-sloem/shtukaturnye-fasadnye-sistemy-na-akrilovoi-osnove" target='_blank'><img src="/images/logo.svg" style="width: 126px;float: right; margin:-5px 0px" alt=""></a>
+                <a href="http://www.tehocenka.ru/registry/fasadnye-sistemy-s-tonkim-narujnym-shtukaturnym-sloem/shtukaturnye-fasadnye-sistemy-na-akrilovoi-osnove" target='_blank'><img src="/images/logo-tehocenka.png" style="width: 126px;float: right; margin:-5px 0px" alt=""></a>
             </div>
 
         </div>
