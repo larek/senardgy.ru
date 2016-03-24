@@ -4,7 +4,7 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 $this->registerJsFile('/js/fotorama.js', ['depends' => [\yii\web\JqueryAsset::className()]]);
 $this->registerCssFile('/css/fotorama.css');
-$this->title = 'Сенерджи';
+$this->title = 'Сэнарджи-НН. Системы утепления фасадов.';
 $this->params['SideMenu'] = SideMenu::widget(['model' => $model_child,'guid' => $guid]);
 
 ?>
