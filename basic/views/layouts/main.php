@@ -119,7 +119,7 @@ AppAsset::register($this);
                         <td colspan="3">
 
                             <div class="header_block">
-                                <a href='/'><img src="/images/logo-2.png"></a>
+                                <a href='/'><img src="/images/logo-3.png"></a>
                     
                             </div>
 

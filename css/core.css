@@ -4348,10 +4348,10 @@ padding:0px;
 
 .header_block{
 	height: 129px;
-	background: #CCDBEA;
+	background: url("/images/header_background.jpg");
 }
 .header_block img{
 	position: absolute;
     width: 329px;
-    margin: 48px 40px;
+    margin: 39px 17px;
 }
