@@ -21,3 +21,5 @@ $this->params['SideMenu'] = SideMenu::widget(['model' => $model_child,'guid' => 
     <?= $model->content?>
 </div>
 
+
+
