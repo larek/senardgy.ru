@@ -186,6 +186,33 @@ AppAsset::register($this);
             </td>
         </tr>
   </table>
+
+<footer>
+    <div class="footer" id="footer">
+        
+                <div class="col-md-4">
+                    <a href="http://www.tehocenka.ru/registry/fasadnye-sistemy-s-tonkim-narujnym-shtukaturnym-sloem/shtukaturnye-fasadnye-sistemy-na-akrilovoi-osnove" target='_blank'><img src="http://www.tehocenka.ru/img/logo.svg" style='width:140px' alt=""></a>
+                </div>
+           
+        
+    </div>
+    <!--/.footer-->
+    
+    <div class="footer-bottom">
+        <div class="footer_bottom_container">
+            <p class="pull-left"> © ООО "Сэнарджи-НН". Все права защищены. <?= date("Y");?> г.</p>
+            <div class="pull-right">
+                <ul class="nav nav-pills payments">
+                    <li><i class="fa fa-cc-visa"></i></li>
+                    <li><i class="fa fa-cc-mastercard"></i></li>
+                    <li><i class="fa fa-cc-amex"></i></li>
+                    <li><i class="fa fa-cc-paypal"></i></li>
+                </ul> 
+            </div>
+        </div>
+    </div>
+    <!--/.footer-bottom--> 
+</footer>
 </div>
 
                
