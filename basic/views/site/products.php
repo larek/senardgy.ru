@@ -93,7 +93,7 @@ $this->params['SideMenu'] = SideMenu::widget(['model' => $model_child,'guid' => 
 
 <div class="col-md-12">
 
-<?= $model->content?>
+<?//= $model->content?>
 </div>
 
 
