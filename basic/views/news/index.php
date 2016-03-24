@@ -4,30 +4,6 @@ $this->title="Новости";
 ?>
 
 
-<table class="tblContent" cellpadding="0" cellspacing="0">
-        <tr>
-
-            <td class="tdLeftNavigation noPrint">
-
-                <div class="divLeftNavigation">
-
-                    <div class="divLeftNavL">
-                    
-
-                    </div>
-
-                </div>
-            </td>
-            <td>
-                <table cellpadding="0" cellspacing="0">
-                    <tr>
-                        <td colspan="3">
-                            <div class="divContentRectangleWide">
-                                <div class="divBreadcrump">
-
-                                </div>
-                                <div class="divMainContent">
-                                <?// content of this view?>
 
 
     <!-- Page header -->
@@ -59,15 +35,5 @@ $this->title="Новости";
     <!-- /Timeline -->
 
 <br><br>
-                                <?//end content of this view?>
-
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
-
-                </table>
-            </td>
-        </tr>
-  </table>
+                            
 
