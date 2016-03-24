@@ -109,13 +109,13 @@ body {
     display: none;
 }
 
-.divBASFLogo td {
-    padding: 6px;
+.header_contact td {
+    padding: 2px 6px;
 }
-.divBASFLogo table {
-    color: white;
-    width: 148px;
-    margin: 28px 13px;
+.header_contact {
+    color: #11538F;
+    width: 253px;
+    margin: 28px 473px;
     position: absolute;
 }
 

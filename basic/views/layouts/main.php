@@ -33,23 +33,7 @@ AppAsset::register($this);
 
             <td class="tdLeftNavigation noPrint">
                 <div class="divBASFLogo">
-                    <table>
-                        <tbody>
-
-                            <tr>
-                                <td><span class="glyphicon glyphicon-earphone"></span></td>
-                                <td>8 (831) 4-397-397</td>
-                            </tr>
-                            <tr>
-                                <td><span class="glyphicon glyphicon-envelope"></span></td>
-                                <td>info@senardgy.ru</td>
-                            </tr>
-                            <tr>
-                                <td><span class="glyphicon glyphicon-map-marker"></span></td>
-                                <td>Н.Новгород,&nbsp;ул. Тимирязева, 29Б</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    
                 </div>
 
             </td>
@@ -91,6 +75,23 @@ AppAsset::register($this);
 
                             <div class="header_block">
                                 <a href='/'><img src="/images/logo-2.png"></a>
+                                <table class='header_contact'>
+                        <tbody>
+
+                            <tr>
+                                <td><span class="glyphicon glyphicon-earphone"></span></td>
+                                <td>8 (831) 220-24-24, 8 (831) 220-24-67 <br> 8 (831) 220-24-68, 8 (831) 220-24-69 </td>
+                            </tr>
+                            <tr>
+                                <td><span class="glyphicon glyphicon-envelope"></span></td>
+                                <td>senardgy@yandex.ru</td>
+                            </tr>
+                            <tr>
+                                <td><span class="glyphicon glyphicon-map-marker"></span></td>
+                                <td>Н.Новгород,&nbsp;ул. Тимирязева, 29Б</td>
+                            </tr>
+                        </tbody>
+                    </table>
                             </div>
 
                         </td>
