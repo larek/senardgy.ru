@@ -114,9 +114,16 @@ body {
 }
 .header_contact {
     color: #11538F;
-    width: 253px;
-    margin: 28px 473px;
-    position: absolute;
+    width: 553px;
+    /*margin: 28px 473px;
+    position: absolute;*/
+}
+
+.contact_panel {
+    padding: 10px;
+    height: 80px;
+    background: #CCDBEA;
+    border-bottom: 1px dashed whitesmoke;
 }
 
 .main_banner_txt{

@@ -28,6 +28,49 @@ AppAsset::register($this);
 <?php $this->beginBody() ?>
 <div class="divContent">
 
+    <div class="contact_panel">
+        <div class="col-md-6">
+        <table class='header_contact'>
+
+                        <tbody>
+                            
+                            <tr>
+                                <td><span class="glyphicon glyphicon-map-marker"></span></td>
+                                <td>Н.Новгород,&nbsp;ул. Тимирязева, 29Б</td>
+                            </tr>
+                            <tr>
+                                <td><span class="glyphicon glyphicon-earphone"></span></td>
+                                <td>8 (831) 220-24-24, 8 (831) 220-24-67, 8 (831) 220-24-68, 8 (831) 220-24-69 </td>
+                            </tr>
+                            
+                            <tr>
+                                <td><span class="glyphicon glyphicon-envelope"></span></td>
+                                <td>senardgy@yandex.ru</td>
+                            </tr>
+                        </tbody>
+        </table>
+        </div>
+        <div class="col-md-6">
+        <table class='header_contact'>
+                        <tbody>
+                            
+                            
+                            <tr>
+                                <td><span class="glyphicon glyphicon-map-marker"></span></td>
+                                <td>Москва,&nbsp;3-й проезд Марьиной Рощи, дом 40, стр.1, оф. 506</td>
+                            </tr>
+                            <tr>
+                                <td><span class="glyphicon glyphicon-earphone"></span></td>
+                                <td>8 (495) 741-20-17</td>
+                            </tr>
+                            <tr>
+                                <td><span class="glyphicon glyphicon-envelope"></span></td>
+                                <td>senardgy@yandex.ru</td>
+                            </tr>
+                        </tbody>
+        </table>
+        </div>
+    </div>
     <table class="tblContent" cellpadding="0" cellspacing="0">
         <tr>
 
@@ -77,23 +120,7 @@ AppAsset::register($this);
 
                             <div class="header_block">
                                 <a href='/'><img src="/images/logo-2.png"></a>
-                                <table class='header_contact'>
-                        <tbody>
-
-                            <tr>
-                                <td><span class="glyphicon glyphicon-earphone"></span></td>
-                                <td>8 (831) 220-24-24, 8 (831) 220-24-67 <br> 8 (831) 220-24-68, 8 (831) 220-24-69 </td>
-                            </tr>
-                            <tr>
-                                <td><span class="glyphicon glyphicon-envelope"></span></td>
-                                <td>senardgy@yandex.ru</td>
-                            </tr>
-                            <tr>
-                                <td><span class="glyphicon glyphicon-map-marker"></span></td>
-                                <td>Н.Новгород,&nbsp;ул. Тимирязева, 29Б</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    
                             </div>
 
                         </td>
