@@ -26,10 +26,10 @@ $this->params['SideMenu'] = TreeView::widget(['id' => $rootParent, 'guid' => $gu
 			<td><img src="/images/products_01_wrb.jpg" alt="" class='products_item_img'> </td>
 			<td>
 				<div class='products_item_wrap'>
-					<span class='products_title'><a href='#'>Водо-воздухо отталкивающие грунтовки (праймер)</a></span>
+					<span class='products_title'><a href='/vodo-vozduho-ottalkivausie-gruntovki-prajmer'>Водо-воздухо отталкивающие грунтовки (праймер)</a></span>
 					<ul class="products_list">
-						<li><a href="#">"Сэнарджи® Прайм"</a></li>
-						<li><a href="#">"Сэнарджи® Цветопрайм"</a></li>
+						<li><a href="/senardzir-prajm">"Сэнарджи® Прайм"</a></li>
+						<li><a href="/senardzir-cvetoprajm">"Сэнарджи® Цветопрайм"</a></li>
 					</ul>
 				</div>
 			</td>
@@ -43,10 +43,10 @@ $this->params['SideMenu'] = TreeView::widget(['id' => $rootParent, 'guid' => $gu
 			<td><img src="/images/products_02_abc.jpg" alt="" class='products_item_img'> </td>
 			<td>
 				<div class='products_item_wrap'>
-					<span class='products_title'><a href='#'>Адгезив</a></span>
+					<span class='products_title'><a href='/adgeziv'>Адгезив</a></span>
 					<ul class="products_list">
-						<li><a href="#">"Сэнарджи® Адгезив"</a></li>
-						<li><a href="#">"Сэнарджи® Адгезив-СК"</a></li>
+						<li><a href="/senardzir-adgeziv">"Сэнарджи® Адгезив"</a></li>
+						<li><a href="/senardzir-adgeziv-sk">"Сэнарджи® Адгезив-СК"</a></li>
 					</ul>
 				</div>
 			</td>
@@ -63,7 +63,7 @@ $this->params['SideMenu'] = TreeView::widget(['id' => $rootParent, 'guid' => $gu
 			<td><img src="/images/products_03_mesh.jpg" alt="" class='products_item_img'> </td>
 			<td>
 				<div class='products_item_wrap'>
-					<span class='products_title'><a href='#'>Армирующая стеклотканевая сетка</a></span>
+					<span class='products_title'><a href='/dekorativno-zasitnaa-stukaturka'>Армирующая стеклотканевая сетка</a></span>
 					
 				</div>
 			</td>
@@ -77,11 +77,11 @@ $this->params['SideMenu'] = TreeView::widget(['id' => $rootParent, 'guid' => $gu
 			<td><img src="/images/products_05_textured.jpg" alt="" class='products_item_img'> </td>
 			<td>
 				<div class='products_item_wrap'>
-					<span class='products_title'><a href='#'>Декоративно-защитная штукатурка</a></span>
+					<span class='products_title'><a href='/dekorativno-zasitnaa-stukaturka'>Декоративно-защитная штукатурка</a></span>
 					<ul class="products_list">
-						<li><a href="#">"Сэнарджи® Сэнд" и "Сэнарджи® Сахара"</a></li>
-						<li><a href="#">"Сэнарджи® Фристайл"</a></li>
-						<li><a href="#">"Сэнарджи® Аврора", "Сэнарджи® Аврора Стар", "Сэнарджи® Аврора Корс"</a></li>
+						<li><a href="/senardzir-send-i-senardzir-sahara">"Сэнарджи® Сэнд" и "Сэнарджи® Сахара"</a></li>
+						<li><a href="/senardzir-fristajl">"Сэнарджи® Фристайл"</a></li>
+						<li><a href="/senardzir-avrora-senardzir-avrora-star-senardzir-avrora-kors">"Сэнарджи® Аврора", "Сэнарджи® Аврора Стар", "Сэнарджи® Аврора Корс"</a></li>
 					</ul>
 				</div>
 			</td>
