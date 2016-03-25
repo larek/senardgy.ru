@@ -63,7 +63,7 @@ $this->params['SideMenu'] = TreeView::widget(['id' => $rootParent, 'guid' => $gu
 			<td><img src="/images/products_03_mesh.jpg" alt="" class='products_item_img'> </td>
 			<td>
 				<div class='products_item_wrap'>
-					<span class='products_title'><a href='/dekorativno-zasitnaa-stukaturka'>Армирующая стеклотканевая сетка</a></span>
+					<span class='products_title'><a href='/armiruusaa-steklotkanevaa-setka'>Армирующая стеклотканевая сетка</a></span>
 					
 				</div>
 			</td>
