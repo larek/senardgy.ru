@@ -15,7 +15,7 @@ use yii\helpers\ArrayHelper;
     <?php $form = ActiveForm::begin(); ?>
 
     <?
-    $dropDownListItems = ArrayHelper::map(Pages::find()->andWhere(['parent_id'=>0])->all(),'id','title');
+    $dropDownListItems = ArrayHelper::map(Pages::find()->all(),'id','title');
     $dropDownListItems[0]= 'Без категории';
     ?>
 
