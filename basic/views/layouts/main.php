@@ -249,21 +249,26 @@ AppAsset::register($this);
     
     <div class="footer-bottom">
         <div class="footer_bottom_container">
-            <div class="col-md-6">
-                <p>© ООО "Сэнарджи-НН". Все права защищены. <?= date("Y");?> г.</p>
+            <div class="col-md-3">
+                <p>© ООО "Сэнарджи-НН" <br> Все права защищены. <?= date("Y");?> г.</p>
             </div>
 
             <div class="col-md-6">    
-                <a href="http://www.tehocenka.ru/registry/fasadnye-sistemy-s-tonkim-narujnym-shtukaturnym-sloem/shtukaturnye-fasadnye-sistemy-na-akrilovoi-osnove" target='_blank'><img src="/images/logo-tehocenka.png" style="width: 126px;float: right; margin:-5px 0px" alt=""></a>
+                <a href="http://www.tehocenka.ru/registry/fasadnye-sistemy-s-tonkim-narujnym-shtukaturnym-sloem/shtukaturnye-fasadnye-sistemy-na-akrilovoi-osnove" target='_blank'><img src="/images/logo-tehocenka.png" style="width: 126px;" alt=""></a>
             </div>
 
         </div>
     </div>
     <!--/.footer-bottom--> 
 </footer>
+
 </div>
 
-               
+<!-- BEGIN JIVOSITE CODE {literal} -->
+<script type='text/javascript'>
+(function(){ var widget_id = 'iLtUC2kNH7';
+var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);})();</script>
+<!-- {/literal} END JIVOSITE CODE -->               
 
 <?php $this->endBody() ?>
 </body>
