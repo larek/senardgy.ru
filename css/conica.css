@@ -75,8 +75,8 @@ DIV.divLeftNavigation
 
 DIV.divLeftNavigation DIV,DIV.divLeftNavigation A 
 {
-	color: #000000;
-	display:block;
+	/*color: #000000;
+	display:block;*/
 }
 
 DIV.divLeftNavL DIV 
@@ -86,9 +86,9 @@ DIV.divLeftNavL DIV
 
 DIV.divLeftNavL A
 {
-	background-position: left top;
+/*	background-position: left top;
 	background-repeat: no-repeat;
-	padding-left: 14px;
+	padding-left: 14px;*/
 }
 
 DIV A.hypParent

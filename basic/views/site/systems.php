@@ -1,5 +1,5 @@
 <?
-use app\components\SideMenu;
+use app\components\TreeView;
 use yii\helpers\Html;
 use yii\widgets\Breadcrumbs;
 
@@ -10,7 +10,7 @@ foreach ($parents_array as $item) {
 }
 $this->params['breadcrumbs'][] = ['label' => $title];
 
-$this->params['SideMenu'] = SideMenu::widget(['model' => $model_child,'guid' => $guid]);
+$this->params['SideMenu'] = TreeView::widget(['id' => $rootParent, 'guid' => $guid]);
 
 ?>
 

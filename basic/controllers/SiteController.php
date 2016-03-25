@@ -139,6 +139,8 @@ class SiteController extends Controller
 
         $parents_array = $this->getParents($page->id);
 
+        $rootParent = $this->getRootParent($page->id);
+
         return $this->render($viewTemplate, [
             'model' => $page,
             'title' => $title,
@@ -146,6 +148,7 @@ class SiteController extends Controller
             'divTemplate' => $divTemplate,
             'guid' => $guid,
             'parents_array' => $parents_array,
+            'rootParent' => $rootParent,
             ]);
     }
 
@@ -173,6 +176,20 @@ class SiteController extends Controller
         }
        
         return array_reverse($parents_array);
+
+    }
+
+    protected function getRootParent($id){
+        static $rootParentId;
+        $model = Pages::find()->where(['id' => $id])->one();
+        if($model->parent_id == 0) {
+            $rootParentId = $model->id;
+        }else{
+            $page = Pages::find()->where(['id' => $model->parent_id])->one();
+            $this->getRootParent($page->id);
+        } 
+
+       return $rootParentId;
 
     }
 }
