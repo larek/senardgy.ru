@@ -470,7 +470,7 @@ div.treeview ul:first-child:before {
     text-decoration: none;
     color:inherit;
     cursor:pointer;
-    font-size: 12px;
+    font-size: 11px;
 }
 .treeview li a.active{
     font-weight:bold;
