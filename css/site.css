@@ -490,3 +490,116 @@ text-decoration: underline;
     outline: 0;
 }
 /*end treeiew*/
+
+
+
+/*color selector*/
+
+            #svg{
+                width:400px;
+                height:524px;
+                border:1px solid silver;
+                /*background: url('../images/senardgy_color_selector.jpg');*/
+                fill-rule: evenodd;
+            }
+            .wall, .roof, .arhElem, .door{
+                opacity: 0.7;
+                fill:none;
+            }
+            .colors{
+                float:right;
+                width:290px;
+                height:524px;
+                overflow-y:scroll;
+                border:1px solid silver;
+                padding: 15px;
+            }
+            .color-selector{
+                border-bottom:4px solid silver;
+            }
+
+            /* Color Comparison */
+DIV.ColorComparisonBig
+{
+    float:left;
+    height: 160px;
+    width: 171px;
+    margin-right:18px;
+}
+DIV.ColorComparisonBigLast
+{
+    float:left;
+    height: 160px;
+    width: 171px;
+    margin-bottom:10px;
+}
+DIV.ColorComparisonBigColor
+{
+    float:left;
+    height: 130px;
+    width: 100%;
+    border:solid 1px black;
+}
+DIV.ColorComparisonBigText
+{
+    float:left;
+    margin-top:3px;
+    width: 100%;
+    font-size:16px;
+    margin-bottom:7px;
+}
+DIV.ColorComparisonBigRemove
+{
+    background-color:#ffffff;
+    border-right:solid 1px black;
+    border-bottom:solid 1px black;
+    text-align:center;
+    height: 15px;
+    width: 15px;
+    cursor:pointer;
+}
+DIV.ColorComparisonSmall
+{
+    float:left;
+    height: 80px;
+    width: 50px;
+    margin-right:14px;
+    margin-bottom:10px;
+}
+DIV.ColorComparisonSmallLast
+{
+    float:left;
+    height: 80px;
+    width: 80px;
+    margin-bottom:10px;
+}
+DIV.ColorComparisonSmallColor
+{
+    border:solid 1px black;
+    float:left;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+DIV.ColorComparisonSmallText
+{
+    /* float:left; */
+    width: 100%;
+    margin-top:0px;
+    margin-bottom:0px;
+    font-size:11px;
+    word-wrap:break-word;
+    height:30px;
+    text-align: center;
+}
+DIV.ColorComparisonSmallAdd
+{
+    background-color:#ffffff;
+    border-right:solid 1px black;
+    border-bottom:solid 1px black;
+    text-align:center;
+    height: 15px;
+    width: 15px;
+    cursor:pointer;
+    display:none;
+}

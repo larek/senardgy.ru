@@ -36,7 +36,7 @@ class TreeView extends Widget
 
     protected function getChilds($id){
         static $childs_array = [];
-        $models = Pages::find()->where(['parent_id' => $id])->all();
+        $models = Pages::find()->where(['parent_id' => $id])->orderBy(['id' => SORT_ASC])->all();
         foreach($models as $model){
             if(isset($model->id)) {
                 //$page = Pages::find()->where(['parent_id' => $model->id])->one();
