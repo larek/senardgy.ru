@@ -502,7 +502,7 @@ text-decoration: underline;
                 /*background: url('../images/senardgy_color_selector.jpg');*/
                 fill-rule: evenodd;
             }
-            .wall, .roof, .arhElem, .door{
+            .wall, .roof, .arhElem, .door, .windows{
                 opacity: 0.7;
                 fill:none;
             }
