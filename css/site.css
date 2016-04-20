@@ -506,6 +506,17 @@ text-decoration: underline;
                 opacity: 0.7;
                 fill:none;
             }
+
+            .wall{fill:rgb(159, 167, 170);}
+            .roof{fill:rgb(78, 78, 78);}
+            .arhElem{fill:rgb(201, 206, 200);}
+            .windows{fill:rgb(154, 159, 162); }
+
+            .btn-wall{border-bottom:4px solid rgb(159, 167, 170)!important;}
+            .btn-roof{border-bottom:4px solid rgb(78, 78, 78)!important;}
+            .btn-arhElem{border-bottom:4px solid rgb(201, 206, 200)!important;}
+            .btn-windows{border-bottom:4px solid rgb(154, 159, 162)!important; }
+
             .colors{
                 float:right;
                 width:290px;
