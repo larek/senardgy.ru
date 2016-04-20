@@ -32,6 +32,26 @@ window.onload = function() {
     windows.addClass("windows");
    // door.addClass("door");
 
+    wall.click(function(e){
+        $(".color-selector").removeClass("active");
+        $(".btn-wall").addClass("active");
+    });
+
+    roof.click(function(e){
+        $(".color-selector").removeClass("active");
+        $(".btn-roof").addClass("active");
+    });
+
+    arhElem.click(function(e){
+        $(".color-selector").removeClass("active");
+        $(".btn-arhElem").addClass("active");
+    });
+
+    windows.click(function(e){
+        $(".color-selector").removeClass("active");
+        $(".btn-windows").addClass("active");
+    });
+
     $(".color-selector").click(function(){
       $(".color-selector").removeClass("active");
       $(this).addClass("active");
