@@ -512,10 +512,10 @@ text-decoration: underline;
             .arhElem{fill:rgb(201, 206, 200);}
             .windows{fill:rgb(154, 159, 162); }
 
-            .btn-wall{border-bottom:4px solid rgb(159, 167, 170)!important;}
-            .btn-roof{border-bottom:4px solid rgb(78, 78, 78)!important;}
-            .btn-arhElem{border-bottom:4px solid rgb(201, 206, 200)!important;}
-            .btn-windows{border-bottom:4px solid rgb(154, 159, 162)!important; }
+            .btn-wall{border-bottom:4px solid rgb(159, 167, 170);}
+            .btn-roof{border-bottom:4px solid rgb(78, 78, 78);}
+            .btn-arhElem{border-bottom:4px solid rgb(201, 206, 200);}
+            .btn-windows{border-bottom:4px solid rgb(154, 159, 162); }
 
             .colors{
                 float:right;
@@ -524,9 +524,6 @@ text-decoration: underline;
                 overflow-y:scroll;
                 border:1px solid silver;
                 padding: 15px;
-            }
-            .color-selector{
-                border-bottom:4px solid silver;
             }
 
             /* Color Comparison */
