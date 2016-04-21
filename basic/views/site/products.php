@@ -26,7 +26,7 @@ $this->params['SideMenu'] = TreeView::widget(['id' => $rootParent, 'guid' => $gu
 			<td><img src="/images/products_01_wrb.jpg" alt="" class='products_item_img'> </td>
 			<td>
 				<div class='products_item_wrap'>
-					<span class='products_title'><a href='/vodo-vozduho-ottalkivausie-gruntovki-prajmer'>Водо-воздухо отталкивающие грунтовки (праймер)</a></span>
+					<span class='products_title'><a href='/gruntovki-prajmer'>Грунтовки (праймер)</a></span>
 					<ul class="products_list">
 						<li><a href="/senardzir-prajm">"Сэнарджи® Прайм"</a></li>
 						<li><a href="/senardzir-cvetoprajm">"Сэнарджи® Цветопрайм"</a></li>
@@ -43,10 +43,9 @@ $this->params['SideMenu'] = TreeView::widget(['id' => $rootParent, 'guid' => $gu
 			<td><img src="/images/products_02_abc.jpg" alt="" class='products_item_img'> </td>
 			<td>
 				<div class='products_item_wrap'>
-					<span class='products_title'><a href='/adgeziv'>Адгезив</a></span>
+					<span class='products_title'><a href='/adgeziv'>Адгезив (клеевой состав)</a></span>
 					<ul class="products_list">
 						<li><a href="/senardzir-adgeziv">"Сэнарджи® Адгезив"</a></li>
-						<li><a href="/senardzir-adgeziv-sk">"Сэнарджи® Адгезив-СК"</a></li>
 					</ul>
 				</div>
 			</td>
@@ -57,27 +56,36 @@ $this->params['SideMenu'] = TreeView::widget(['id' => $rootParent, 'guid' => $gu
 
 <br><br>
 <div class="row notmargin">
-<div class="col-md-6">
+<div class="col-md-12">
 	<table>
 		<tr>
 			<td><img src="/images/products_03_mesh.jpg" alt="" class='products_item_img'> </td>
 			<td>
-				<div class='products_item_wrap'>
-					<span class='products_title'><a href='/armiruusaa-steklotkanevaa-setka'>Армирующая стеклотканевая сетка</a></span>
-					
+				<div class='products_item_wrap' style='width:524px'>
+					<span class='products_title'><a href='/dopolnitelnye-i-vspomogatelnye-materialy'>Дополнительные и вспомогательные материалы</a></span>
+					<ul class="products_list">
+						<li><a href="/armiruusaa-steklotkanevaa-setka">Армирующая стеклотканевая сетка</a></li>
+						<li><a href="/plastikovyj-armiruusij-ugolok">Пластиковый армирующий уголок</a></li>
+						<li><a href="/mineralovatnaa-plita">Минераловатная плита</a></li>
+						<li><a href="/penopolisterol">Пенополистерол</a></li>
+						<li><a href="/ankernyj-komplekt">Анкерный комплект (тарельчатый дюбель)</a></li>
+					</ul>
 				</div>
 			</td>
 		</tr>
 	</table>
 </div>
+</div>
 
-<div class="col-md-6">
+<br><br>
+<div class="row notmargin">
+<div class="col-md-12">
 	<table>
 		<tr>
 			<td><img src="/images/products_05_textured.jpg" alt="" class='products_item_img'> </td>
 			<td>
-				<div class='products_item_wrap'>
-					<span class='products_title'><a href='/dekorativno-zasitnaa-stukaturka'>Декоративно-защитная штукатурка</a></span>
+				<div class='products_item_wrap' style='width:524px'>
+					<span class='products_title'><a href='/dekorativno-zasitnaa-stukaturka'>Фасадные и интерьерные декоративно-защитные штукатурки</a></span>
 					<ul class="products_list">
 						<li><a href="/senardzir-send-i-senardzir-sahara">"Сэнарджи® Сэнд" и "Сэнарджи® Сахара"</a></li>
 						<li><a href="/senardzir-fristajl">"Сэнарджи® Фристайл"</a></li>
