@@ -64,7 +64,7 @@ window.onload = function() {
         hslColor = rgb2hsl(rgbArray);
         console.log(hslColor);
         elementForColor = $(".color-selector.active").attr("data");
-        $(".btn-"+elementForColor).css("border-bottom","4px solid "+colorSelect);
+        $(".btn-"+elementForColor).css("border-bottom","10px solid "+colorSelect);
         elementForColor ? $("."+elementForColor).css("fill", hslColor) : console.log("none");
     });
 
