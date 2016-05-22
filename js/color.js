@@ -26,10 +26,15 @@ window.onload = function() {
     windows = s.group(window1, window2, window3, window4, window5, window6, window7);
    // door = s.polygon(["244,342 274,342 274,413 244,413 "]);
 
+   tube1 = s.polygon(['265,67 271,40 289,40 289,42 288,44 288,47 288,106']);
+   tube2 = s.polygon(['107,40 125,40 129,66 108,109 108,48 107,45 ']);
+   tube = s.group(tube1, tube2);
+
     wall.addClass("wall");
     roof.addClass("roof");
     arhElem.addClass("arhElem");
     windows.addClass("windows");
+    tube.addClass("tube");
    // door.addClass("door");
 
     wall.click(function(e){
@@ -50,6 +55,11 @@ window.onload = function() {
     windows.click(function(e){
         $(".color-selector").removeClass("active");
         $(".btn-windows").addClass("active");
+    });
+
+    tube.click(function(e){
+        $(".color-selector").removeClass("active");
+        $(".btn-tube").addClass("active");
     });
 
     $(".color-selector").click(function(){

@@ -32,6 +32,7 @@ $this->params['SideMenu'] = TreeView::widget(['id' => $rootParent, 'guid' =>$gui
 	  <span class="btn btn-default color-selector btn-doors hide" data="door">Дверь</span>
 	  <span class="btn btn-default color-selector btn-windows" data="windows">Окна</span>
 	  <span class="btn btn-default color-selector btn-arhElem" data="arhElem">Архитектурные элементы</span>
+      <span class="btn btn-default color-selector btn-tube" data="tube">Дымоходы</span>
 	</div>
 </div>
 

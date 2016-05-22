@@ -503,7 +503,7 @@ text-decoration: underline;
                 /*background: url('../images/senardgy_color_selector.jpg');*/
                 fill-rule: evenodd;
             }
-            .wall, .roof, .arhElem, .door, .windows{
+            .wall, .roof, .arhElem, .door, .windows, .tube{
                 opacity: 0.7;
                 fill:none;
             }
@@ -512,11 +512,15 @@ text-decoration: underline;
             .roof{fill:rgb(78, 78, 78);}
             .arhElem{fill:rgb(201, 206, 200);}
             .windows{fill:rgb(154, 159, 162); }
+            .tube{fill:rgb(201, 206, 200);}
+
 
             .btn-wall{border-bottom:10px solid rgb(159, 167, 170);}
             .btn-roof{border-bottom:10px solid rgb(78, 78, 78);}
             .btn-arhElem{border-bottom:10px solid rgb(201, 206, 200);}
             .btn-windows{border-bottom:10px solid rgb(154, 159, 162); }
+            .btn-tube{border-bottom:10px solid rgb(201, 206, 200);}
+
 
             .colors{
                 float:right;
