@@ -4347,11 +4347,12 @@ padding:0px;
 }
 
 .header_block{
-	height: 129px;
-	background: url("/images/header_background.jpg");
+	height: 152px;
+	background: url("/images/header_background-2.jpg");
+	background-position-y: -25px;
 }
 .header_block img{
 	position: absolute;
-    width: 329px;
-    margin: 39px 17px;
+	width: 329px;
+	margin: 40px 18px;
 }

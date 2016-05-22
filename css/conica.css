@@ -101,11 +101,9 @@ DIV A.hypCurrent
 
 DIV.divBASFLogo 
 {
-	height: 160px;
+	height: 183px;
 	width: 100%;
-	
 	margin-top: 0px;
-	
 	background-position: left top;
 	background-repeat: no-repeat;
 	display: block;
@@ -207,7 +205,7 @@ DIV.divTeaser
 }
 DIV.divTeaserHeader 
 {	
-	/* Achtung Paddings müssen hier berücksichtigt werden */
+	/* Achtung Paddings mï¿½ssen hier berï¿½cksichtigt werden */
 	width: 186px; /* 194px */
 	
 	font-weight: bold;
@@ -219,7 +217,7 @@ DIV.divTeaserHeader
 }
 DIV.divTeaserContent
 {
-	/* Achtung Paddings müssen hier berücksichtigt werden */
+	/* Achtung Paddings mï¿½ssen hier berï¿½cksichtigt werden */
 	width: 184px; /* 194px */
 	
 	padding-top: 2px;
