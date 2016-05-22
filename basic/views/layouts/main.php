@@ -108,7 +108,7 @@ AppAsset::register($this);
 
                             <div class="header_block">
                                 <a href='/'><img src="/images/logo-3.png"></a>
-                                <div class="header_title">Системы утепления домов</div>
+                                <div class="header_title">Системы наружной теплоизоляции фасадов</div>
                             </div>
 
                         </td>
