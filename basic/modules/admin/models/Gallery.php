@@ -31,7 +31,7 @@ class Gallery extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['title', 'description', 'image', 'meta_title', 'meta_keywords', 'meta_description'], 'required'],
+            [['title'], 'required'],
             [['description', 'meta_description'], 'string'],
             [['title', 'image', 'meta_title', 'meta_keywords'], 'string', 'max' => 250]
         ];
