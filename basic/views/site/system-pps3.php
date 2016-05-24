@@ -19,6 +19,27 @@ $this->params['SideMenu'] = TreeView::widget(['id' => $rootParent, 'guid' =>$gui
 </div>
 
 <div class="col-md-12">
+  
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+   
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="/opisanie-i-sostav-2">Описание и состав</a></li>
+        <li><a href="/montaz-2">Монтаж</a></li>
+        <li><a href="/trebovania-k-komponentam-2">Требования к компонентам</a></li>
+        <li><a href="/pismo-cniisk-2">Письмо ЦНИИСК</a></li>
+        <li><a href="/pps3-node">Узлы</a></li>
+        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+</div>
+<div class="col-md-12">
 	<div class="system-schema">
 	<div class="line" style="width: 350px;margin: 34px 0px 0px 140px;"><a href="/senardzir-prajm">Прайм (грунтовка)</a></div>
 	<div class="line" style="width: 350px;margin: 56px 0px 0px 140px;"><a href="/senardzir-adgeziv">Адгезив (клеевой состав)</a></div>
@@ -33,48 +54,8 @@ $this->params['SideMenu'] = TreeView::widget(['id' => $rootParent, 'guid' =>$gui
 	</div>
 </div>
 
-<div class="col-md-12">
-	
-	<nav class="navbar navbar-default">
-  <div class="container-fluid">
-   
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="#">Описание и состав</a></li>
-        <li><a href="#">Монтаж</a></li>
-        <li><a href="#">Требования к компонентам</a></li>
-        <li><a href="#">Письмо ЦНИИСК</a></li>
-        <li><a href="#">Узлы</a></li>
-        
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
 
-</div>
-
-<div class="col-md-12">
-	
-	<div class="btn-group btn-group-justified" role="group" aria-label="...">
-  <div class="btn-group" role="group">
-    <button type="button" class="btn btn-default">Описание <br>и состав</button>
-  </div>
-  <div class="btn-group" role="group">
-    <button type="button" class="btn btn-default">Монтаж</button>
-  </div>
-  <div class="btn-group" role="group">
-    <button type="button" class="btn btn-default">Требования к компонентам</button>
-  </div>
-    <div class="btn-group" role="group">
-    <button type="button" class="btn btn-default">Письмл ЦНИИСК</button>
-  </div>
-    <div class="btn-group" role="group">
-    <button type="button" class="btn btn-default">Узлы</button>
-  </div>
-</div>
-</div>
 
 <div class="col-md-12">
     <?= $model->content?>

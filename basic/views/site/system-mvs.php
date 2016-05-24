@@ -19,6 +19,28 @@ $this->params['SideMenu'] = TreeView::widget(['id' => $rootParent, 'guid' =>$gui
 </div>
 
 <div class="col-md-12">
+  
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+   
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="/opisanie-i-sostav-3">Описание и состав</a></li>
+        <li><a href="/montaz-3">Монтаж</a></li>
+        <li><a href="/trebovania-k-komponentam-3">Требования к компонентам</a></li>
+        <li><a href="/pismo-cniisk-3">Письмо ЦНИИСК</a></li>
+        <li><a href="/mvs-node">Узлы</a></li>
+        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+</div>
+
+<div class="col-md-12">
 	<div class="system-schema">
 	<div class="line" style="width: 350px;margin: 34px 0px 0px 140px;"><a href="/senardzir-prajm">Прайм (грунтовка)</a></div>
 	<div class="line" style="width: 350px;margin: 56px 0px 0px 140px;"><a href="/senardzir-adgeziv">Адгезив (клеевой состав)</a></div>
