@@ -20,7 +20,9 @@
         "yiisoft/yii2-swiftmailer": "*",
         "2amigos/yii2-tinymce-widget" : "~1.1",
         "harrytang/yii2-fineuploader": "*",
-        "2amigos/yii2-transliterator-helper": "*"
+        "2amigos/yii2-transliterator-helper": "*",
+        "yiisoft/yii2-imagine": "^2.0"
+
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",
