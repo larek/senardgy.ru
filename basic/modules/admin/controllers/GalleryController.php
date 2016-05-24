@@ -5,6 +5,8 @@ namespace app\modules\admin\controllers;
 use Yii;
 use app\modules\admin\models\Gallery;
 use app\modules\admin\models\GallerySearch;
+use app\modules\admin\models\GalleryImages;
+use yii\imagine\Image;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -90,7 +92,7 @@ class GalleryController extends Controller
         }
     }
 
-    
+
     public function actionUpload($id){
         $this->layout = 'main';
         return $this->render('upload',[
