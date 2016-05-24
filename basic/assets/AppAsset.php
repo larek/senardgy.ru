@@ -27,8 +27,9 @@ class AppAsset extends AssetBundle
         'css/themeblue.css',
         'css/themeblue_new_updated.css',
         'css/typo.css',
+        'fancybox/source/jquery.fancybox.css',
 
-        
+
     ];
     public $js = [
         'js/basf-jquery-1.3.2.js',
@@ -37,7 +38,9 @@ class AppAsset extends AssetBundle
         'js/non_ie.js',
         'js/OpenPopup.js',
         'js/swfobject.js',
-        
+        'fancybox/source/jquery.fancybox.js',
+
+
     ];
     public $depends = [
         'yii\web\YiiAsset',
