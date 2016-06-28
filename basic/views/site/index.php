@@ -31,7 +31,7 @@ $this->params['SideMenu'] = SideMenu::widget(['model' => $model_child,'guid' => 
   <div class="panel-body">
     <div class="starter-template">
         <h1>ООО "Сэнарджи-НН"</h1>
-        <p class=""> Компания "Сэнарджи®" является разработчиком и производителем систем наружной теплоизоляции фасадов зданий "Сэнарджи® МвС" и "Сэнарджи® ПпС-3". Системы утепления "Сэнарджи®" полностью сертифицированы и имеют Техническое свидетельство Росстроя России.</p>
+        <p class=""> Компания "Сэнарджи®" является разработчиком и производителем систем наружной теплоизоляции фасадов зданий "Сэнарджи® МвС" и "Сэнарджи® ПпС-3". Системы утепления "Сэнарджи®" полностью сертифицированы и имеют Техническое свидетельство.</p>
 </div>
   </div>
 </div>
@@ -40,9 +40,9 @@ $this->params['SideMenu'] = SideMenu::widget(['model' => $model_child,'guid' => 
 
 
 <div class="col-md-4" style="margin-top:20px; text-align:center">
-          <img class="img-circle" src="/images/pirog.jpg" alt="Generic placeholder image" width="140" height="140">
+          <img class="" src="/images/pps3.png" alt="Generic placeholder image" width="140" height="140">
           <h2>Системы утепления</h2>
-          <p>Системы наружной теплоизоляции фасадов зданий "Сенарджи ПпС", "Сенарджи ПпС-3" <br> и "Сенарджи МвС"</p>
+          <p>Системы наружной теплоизоляции фасадов зданий "Сэнарджи ПпС", "Сэнарджи ПпС-3" <br> и "Сэнарджи МвС"</p>
           <p><?= Html::a('Подробнее »',['site/view', 'guid' => 'sistemy-uteplenia'], ['class' => 'btn btn-default']);?></p>
           
 </div>
