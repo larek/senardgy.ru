@@ -117,12 +117,12 @@ AppAsset::register($this);
                         <td colspan="3">
                             <div class="divHeaderNavL2">
                                 <?= Html::a('Системы утепления', ['site/view' ,'guid' => 'sistemy-uteplenia']);?>|
-                                    <?= Html::a('Продукция', ['site/view' ,'guid' => 'produkcia']);?>|
-                                        <?= Html::a('Реставрация', ['site/view' ,'guid' => 'restavracia']);?>|
-                                            <?= Html::a('Тех. документация', ['site/view' ,'guid' => 'tehniceskaa-dokumentacia']);?>|
-                                                <?= Html::a('Тех. поддержка', ['site/view' ,'guid' => 'tehniceskaa-podderzka']);?>|
-                                                    <?= Html::a('Текстуры и цвета', ['site/view' ,'guid' => 'tekstury-i-cveta']);?>|
-                                                        <?= Html::a('Фотогалерея', ['site/view' ,'guid' => 'fotogalerea']);?>
+                                <?= Html::a('Продукция', ['site/view' ,'guid' => 'produkcia']);?>|
+                                <?= Html::a('Текстуры и цвета', ['site/view' ,'guid' => 'tekstury-i-cveta']);?>|
+                                <?= Html::a('Документация', ['site/view' ,'guid' => 'tehniceskaa-dokumentacia']);?>|
+                                <?= Html::a('Фотогалерея', ['site/view' ,'guid' => 'fotogalerea']);?>|
+                                <?= Html::a('Реконструкция', ['site/view' ,'guid' => 'restavracia']);?>|
+                                <?= Html::a('Тех.поддержка', ['site/view' ,'guid' => 'tehniceskaa-podderzka']);?>
 
                             </div>
                         </td>
@@ -190,7 +190,7 @@ AppAsset::register($this);
 <footer>
     <div class="footer" id="footer">
         
-                
+                <div class="col-md-1"></div>
                 <div class="col-md-2">
                     <a href="#">
                         <img src="/images/doc1.gif"  alt="">
@@ -232,15 +232,9 @@ AppAsset::register($this);
                     </a>
 
                 </div>
+                <div class="col-md-1"></div>
 
-                <div class="col-md-2">
-                    <a href="#">
-                        <img src="/images/gosstroy.png"  style='height:90px' alt="">
-                        <br>
-                        <span>Техническое сфидетельство на системы утепления</span>
-                    </a>
-
-                </div>
+                
                 
            
         
