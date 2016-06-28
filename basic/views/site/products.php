@@ -26,7 +26,7 @@ $this->params['SideMenu'] = TreeView::widget(['id' => $rootParent, 'guid' => $gu
 			<td><img src="/images/products_01_wrb.jpg" alt="" class='products_item_img'> </td>
 			<td>
 				<div class='products_item_wrap'>
-					<span class='products_title'><a href='/gruntovki-prajmer'>Грунтовки (праймер)</a></span>
+					<span class='products_title'>Грунтовки (праймер)</span>
 					<ul class="products_list">
 						<li><a href="/senardzir-prajm">"Сэнарджи® Прайм"</a></li>
 						<li><a href="/senardzir-cvetoprajm">"Сэнарджи® Цветопрайм"</a></li>
@@ -43,7 +43,7 @@ $this->params['SideMenu'] = TreeView::widget(['id' => $rootParent, 'guid' => $gu
 			<td><img src="/images/products_02_abc.jpg" alt="" class='products_item_img'> </td>
 			<td>
 				<div class='products_item_wrap'>
-					<span class='products_title'><a href='/adgeziv'>Адгезив (клеевой состав)</a></span>
+					<span class='products_title'>Адгезив (клеевой состав)</span>
 					<ul class="products_list">
 						<li><a href="/senardzir-adgeziv">"Сэнарджи® Адгезив"</a></li>
 					</ul>
@@ -85,8 +85,10 @@ $this->params['SideMenu'] = TreeView::widget(['id' => $rootParent, 'guid' => $gu
 			<td><img src="/images/products_05_textured.jpg" alt="" class='products_item_img'> </td>
 			<td>
 				<div class='products_item_wrap' style='width:524px'>
-					<span class='products_title'><a href='/dekorativno-zasitnaa-stukaturka'>Фасадные и интерьерные декоративно-защитные штукатурки</a></span>
+					<span class='products_title'>Фасадные и интерьерные декоративно-защитные штукатурки</span>
 					<ul class="products_list">
+						<li><a href="/senardzir-klassik-amadej-senardzir-klassik-senardzir-klasik-kors">Сэнарджи® Классик Амадей, Сэнарджи® Классик, Сэнарджи® Класик Корс
+</a></li>
 						<li><a href="/senardzir-send-i-senardzir-sahara">"Сэнарджи® Сэнд" и "Сэнарджи® Сахара"</a></li>
 						<li><a href="/senardzir-fristajl">"Сэнарджи® Фристайл"</a></li>
 						<li><a href="/senardzir-avrora-senardzir-avrora-star-senardzir-avrora-kors">"Сэнарджи® Аврора", "Сэнарджи® Аврора Стар", "Сэнарджи® Аврора Корс"</a></li>
