@@ -619,11 +619,11 @@ DIV.ColorComparisonSmallAdd
 
 .header_title {
     position: absolute;
-    margin: 105px 20px;
-    color: white;
+    margin: 105px 389px;
+    color: #0202ff;
     text-transform: uppercase;
     font-size: 13px;
-    text-shadow: 1px 1px #0202FF;
+    width: 333px;
 }
 
 .line{
