@@ -643,3 +643,11 @@ DIV.ColorComparisonSmallAdd
     margin-bottom: 30px;
     background: #CCDBEA;
 }
+
+.podbor-cveta a, .podbor-cveta p{
+    text-decoration: none;
+}
+
+.podbor-cveta p{
+    color: white;
+}
