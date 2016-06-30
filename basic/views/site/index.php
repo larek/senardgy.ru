@@ -9,23 +9,6 @@ $this->params['SideMenu'] = SideMenu::widget(['model' => $model_child,'guid' => 
 
 ?>
 
-
-
-<div class="col-md-12">
-  <div class="fotorama"
-     data-width="100%"
-     data-ratio="2/1"
-     data-fit="cover">
-    <img src="/images/slide1.jpg" data-caption='Картинная Галерея А.Шилова (г.Москва, ул.Знаменка, д.5)'>
-    <img src="/images/slide2.jpg" data-caption='Комплекс 17-ти этажных жилых домов (г. Нижний Новгород, микрорайон "Молодежный", Автозаводского р-на)'>
-    <img src="/images/slide3.jpg" >
-    <img src="/images/slide4.jpg" data-caption="Речной вокзал (г.Нижний Новгород, площадь Маркина, д. 15а)">
-    <img src="/images/slide5.jpg" >
-    <img src="/images/slide8.jpg" >
-  </div>
-</div>
-
-<br><br>
 <div class="col-md-12">
 <div class="panel panel-default">
   <div class="panel-body">
@@ -37,7 +20,19 @@ $this->params['SideMenu'] = SideMenu::widget(['model' => $model_child,'guid' => 
 </div>
 </div>
 
+<br><br>
 
+<div class="col-md-12">
+  <div class="fotorama"
+     data-width="100%"
+     data-ratio="2/1"
+     data-fit="cover">    
+     <img src="/images/slide4.jpg" data-caption="Речной вокзал (г.Нижний Новгород, площадь Маркина, д. 15а)">    <img src="/images/slide2.jpg" data-caption='Комплекс 17-ти этажных жилых домов (г. Нижний Новгород, микрорайон "Молодежный", Автозаводского р-на)'>
+    <img src="/images/slide1.jpg" data-caption='Картинная Галерея А.Шилова (г.Москва, ул.Знаменка, д.5)'>
+    <img src="/images/slide3.jpg" >
+    <img src="/images/slide5.jpg" >
+  </div>
+</div>
 
 <div class="col-md-4" style="margin-top:20px; text-align:center">
           <img class="" src="/images/pps3.png" alt="Generic placeholder image" width="140" height="140">
