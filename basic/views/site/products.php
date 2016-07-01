@@ -101,6 +101,24 @@ $this->params['SideMenu'] = TreeView::widget(['id' => $rootParent, 'guid' => $gu
 
 </div>
 
+<br><br>
+<div class="row notmargin">
+<div class="col-md-12">
+	<table>
+		<tr>
+			<td><img src="/images/archelem.png" style='border:1px solid #004a96' alt="" class='products_item_img'> </td>
+			<td>
+				<div class='products_item_wrap' style='width:524px'>
+					<span class='products_title'>Архитектурные детали</span>
+					
+				</div>
+			</td>
+		</tr>
+	</table>
+</div>
+
+</div>
+
 <div class="col-md-12">
 
 <?//= $model->content?>
