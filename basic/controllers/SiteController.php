@@ -9,6 +9,7 @@ use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
 use app\models\Pages;
+use app\models\ColorSelector;
 
 use harrytang\fineuploader\FineuploaderHandler;
 
@@ -126,6 +127,7 @@ class SiteController extends Controller
     public function actionView(){
 
         $guid = Yii::$app->request->get('guid');
+        $colorslink = Yii::$app->request->get('colorslink');
 
         $page = Pages::find()->where(['guid' => $guid])->one();
 
@@ -141,6 +143,8 @@ class SiteController extends Controller
 
         $rootParent = $this->getRootParent($page->id);
 
+        $colorsdata = $colorslink ? ColorSelector::find()->where(['link' => $colorslink])->one() : ColorSelector::find()->where(['id' => 4])->one();
+
         return $this->render($viewTemplate, [
             'model' => $page,
             'title' => $title,
@@ -149,6 +153,7 @@ class SiteController extends Controller
             'guid' => $guid,
             'parents_array' => $parents_array,
             'rootParent' => $rootParent,
+            'colordata' => $colorsdata,
             ]);
     }
 
@@ -160,6 +165,21 @@ class SiteController extends Controller
             ->setSubject('Обратный звонок с сайта')
             //->setHtmlBody('Заказ - <a href="http://'.$_SERVER['SERVER_NAME'].$url.'">Ссылка на заказ</a>')
             ->send();
+
+    }
+
+    public function actionGetcolorlink(){
+        $data = $_POST['data'];
+        $link = md5($_SERVER['REMOTE_ADDR'].time());
+        $model = new ColorSelector;
+        $model->wall = $data['wall']['text'].";".$data['wall']['color'];
+        $model->roof = $data['roof']['text'].";".$data['roof']['color'];
+        $model->arhElem = $data['arhElem']['text'].";".$data['arhElem']['color'];
+        $model->windows = $data['windows']['text'].";".$data['windows']['color'];
+        $model->tube = $data['tube']['text'].";".$data['tube']['color'];
+        $model->link = $link;
+        echo $model->save() ? "http://".$_SERVER['SERVER_NAME']."/podbor-cveta/".$link : 'false';
+
 
     }
 

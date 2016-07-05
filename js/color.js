@@ -292,6 +292,33 @@ window.onload = function() {
     tube.addClass("tube");
     // door.addClass("door");
 
+    //preloadcolors
+    wallColor = $(".info-color-wall").attr("data");
+    $(".info-color-wall").css("background",wallColor);
+    $(".btn-wall").css("border-bottom",'10px solid ' + wallColor);
+    $(".wall").css('fill', wallColor);
+
+    roofColor = $(".info-color-roof").attr("data");
+    $(".info-color-roof").css("background",roofColor);
+    $(".btn-roof").css("border-bottom",'10px solid ' + roofColor);
+    $(".roof").css('fill', roofColor);
+
+    arhElemColor = $(".info-color-arhElem").attr("data");
+    $(".info-color-arhElem").css("background",arhElemColor);
+    $(".btn-arhElem").css("border-bottom",'10px solid ' + arhElemColor);
+    $(".arhElem").css('fill', arhElemColor);
+
+    windowsColor = $(".info-color-windows").attr("data");
+    $(".info-color-windows").css("background",windowsColor);
+    $(".btn-windows").css("border-bottom",'10px solid ' + windowsColor);
+    $(".windows").css('fill', windowsColor);
+
+    tubeColor = $(".info-color-tube").attr("data");
+    $(".info-color-tube").css("background",tubeColor);
+    $(".btn-tube").css("border-bottom",'10px solid ' + tubeColor);
+    $(".tube").css('fill', tubeColor);
+
+
     wall.click(function(e) {
         $(".color-selector").removeClass("active");
         $(".btn-wall").addClass("active");
@@ -323,16 +350,41 @@ window.onload = function() {
     });
 
 
-    $(".ColorComparisonSmallColor").click(function() {
-        colorSelect = $(this).css('background-color');
+    $(".ColorComparisonSmall").click(function() {
+        children = $(this).children();
+
+        colorSelect = children[0].style.backgroundColor;
+        colorText = children[1].innerHTML;
+
         rgbArray = colorSelect.substr(4, colorSelect.length - 5).split(', ');
         hslColor = rgb2hsl(rgbArray);
-        console.log(hslColor);
+
         elementForColor = $(".color-selector.active").attr("data");
+
+        $(".info-"+ elementForColor).html(colorText);
+        $(".info-"+ elementForColor).attr('data',colorSelect);
+        $(".info-color-"+elementForColor).css('background',hslColor);
+        $(".info-color-"+elementForColor).attr('data',colorSelect);
         $(".btn-" + elementForColor).css("border-bottom", "10px solid " + colorSelect);
         elementForColor ? $("." + elementForColor).css("fill", hslColor) : console.log("none");
     });
 
+
+    $(".btn-color-getLink").click(function(){
+
+        data = {
+            'wall'      : {'text' : $(".info-wall").html(),     'color' : $(".info-color-wall").attr('data')},
+            'roof'      : {'text' : $(".info-roof").html(),     'color' : $(".info-color-roof").attr('data')},
+            'arhElem'   : {'text' : $(".info-arhElem").html(),  'color' : $(".info-color-arhElem").attr('data')},
+            'windows'   : {'text' : $(".info-windows").html(),  'color' : $(".info-color-windows").attr('data')},
+            'tube'      : {'text' : $(".info-tube").html(),     'color' : $(".info-color-tube").attr('data')},
+            
+        }
+
+        $.post('/getcolorlink',{'data' : data}).done(function(res){
+            $(".colorLink").val(res);
+        });
+    });
 
 }
 

@@ -508,7 +508,7 @@ text-decoration: underline;
                 fill:none;
             }
 
-            .wall{fill:rgb(159, 167, 170);}
+            /*.wall{fill:rgb(159, 167, 170);}
             .roof{fill:rgb(78, 78, 78);}
             .arhElem{fill:rgb(201, 206, 200);}
             .windows{fill:rgb(154, 159, 162); }
@@ -519,7 +519,7 @@ text-decoration: underline;
             .btn-roof{border-bottom:10px solid rgb(78, 78, 78);}
             .btn-arhElem{border-bottom:10px solid rgb(201, 206, 200);}
             .btn-windows{border-bottom:10px solid rgb(154, 159, 162); }
-            .btn-tube{border-bottom:10px solid rgb(201, 206, 200);}
+            .btn-tube{border-bottom:10px solid rgb(201, 206, 200);}*/
 
 
             .colors{
