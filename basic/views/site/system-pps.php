@@ -47,8 +47,9 @@ $this->params['SideMenu'] = TreeView::widget(['id' => $rootParent, 'guid' =>$gui
 	<div class="line" style="width: 350px;margin: 78px 0px 0px 140px;"><a href="/penopolisterol">Пенополистерол</a></div>
 	<div class="line" style="width: 300px;margin: 100px 0px 0px 190px;"><a href="/senardzir-adgeziv">Адгезив (армирующий состав)</a></div>
 	<div class="line" style="width: 310px;margin: 122px 0px 0px 180px;"><a href="/armiruusaa-steklotkanevaa-setka">Армирующая сетка</a></div>
-	<div class="line" style="width: 300px;margin: 144px 0px 0px 190px;"><a href="/senardzir-cvetoprajm">Цветопрайм</a></div>
-	<div class="line" style="width: 300px;margin: 166px 0px 0px 190px;"><a href="/dekorativno-zasitnaa-stukaturka">Декоративно-защитная штукатурка</a></div>
+  <div class="line" style="width: 415px;margin: 144px 0px 0px 75px;"><a href="/ankernyj-komplekt">Дюбель-гвоздь</a></div>
+	<div class="line" style="width: 320px;margin: 166px 0px 0px 170px;"><a href="/senardzir-cvetoprajm">Цветопрайм</a></div>
+	<div class="line" style="width: 300px;margin: 188px 0px 0px 190px;"><a href="/dekorativno-zasitnaa-stukaturka">Декоративно-защитная штукатурка</a></div>
 
 
 	<img src="/images/pps.png" class="img-responsive" alt="" style='width:270px'>
