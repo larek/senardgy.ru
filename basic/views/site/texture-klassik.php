@@ -3,7 +3,7 @@ use app\components\TreeView;
 use yii\helpers\Html;
 use yii\widgets\Breadcrumbs;
 use app\components\Gallery;
-
+use app\components\Colormap;
 
 $this->title = $title;
 
@@ -25,4 +25,16 @@ $this->params['SideMenu'] = TreeView::widget(['id' => $rootParent, 'guid' =>$gui
 
 <div class="">
 <?= Gallery::widget(['galleryId' => 4]);?>
+</div>
+
+<div class="col-md-12">
+<div class="panel panel-default">
+  <div class="panel-body">
+    <div class="starter-template">
+        <p class=""> Компания "Сэнарджи®" предоставляет для данной текстуры стандартный набор цветов из нашей колерной карты. Так же мы можем подобрать индивидуальный цвет на заказ.</p>
+        <?= Colormap::widget();?>
+
+</div>
+  </div>
+</div>
 </div>
