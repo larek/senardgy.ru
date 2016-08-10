@@ -192,7 +192,7 @@ AppAsset::register($this);
         
                 <div class="col-md-1"></div>
                 <div class="col-md-2">
-                    <a href="#">
+                    <a href="/pdf/Album_TR.pdf" target='_blank'>
                         <img src="/images/doc1.gif"  alt="">
                         <br>
                         <span>Альбом технических решений</span>
