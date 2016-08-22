@@ -36,7 +36,7 @@ AppAsset::register($this);
                             
                             <tr>
                             
-                                <td><span class="glyphicon glyphicon-map-marker"></span> Н.Новгород - 8 (831) 220-24-24 | 8 (831) 220-24-67 | 8 (831) 220-24-68 | 8 (831) 220-24-69</td>
+                                <td><span class="glyphicon glyphicon-map-marker"></span> Н.Новгород - 8 (831) 220-24-24 | 8 (831) 220-24-67 (68, 69)</td>
                             </tr>
                          
                             
@@ -244,7 +244,7 @@ AppAsset::register($this);
     <div class="footer-bottom">
         <div class="footer_bottom_container">
             <div class="col-md-3">
-                <p>© ООО "Сэнарджи-НН" <br> Все права защищены. <?= date("Y");?> г.</p>
+                <p>© Группа Компаний "Сэнарджи-НН" <br> Все права защищены. <?= date("Y");?> г.</p>
             </div>
 
             <div class="col-md-6">    
