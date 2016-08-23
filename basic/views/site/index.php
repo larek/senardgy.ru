@@ -44,7 +44,7 @@ $this->params['SideMenu'] = SideMenu::widget(['model' => $model_child,'guid' => 
 <div class="col-md-4" style="margin-top:20px; text-align:center">
           <img class="img-circle" src="/images/products_01_wrb.jpg" alt="Generic placeholder image" width="140" height="140">
           <h2>Продукция</h2>
-          <p>Водо-воздухо отталкивающие грунтовки (праймер), Адгезив, Армирующая стеклотканевая сетка, Декоративно-защитная штукатурка</p>
+          <p>Акриловый праймер с высокой проникающей способностью, Адгезив, Армирующая стеклотканевая сетка, Декоративно-защитная штукатурка</p>
           <p><?= Html::a('Подробнее »',['site/view', 'guid' => 'produkcia'], ['class' => 'btn btn-default']);?></p>
 </div>
 

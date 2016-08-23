@@ -190,6 +190,7 @@ AppAsset::register($this);
 <footer>
     <div class="footer" id="footer">
         
+
                 <div class="col-md-1"></div>
                 <div class="col-md-2">
                     <a href="/pdf/Album_TR.pdf" target='_blank'>
@@ -200,7 +201,7 @@ AppAsset::register($this);
 
                 </div>
                  <div class="col-md-2">
-                    <a href="#" >
+                    <a href="/pdf/sert.pdf" target="_blank" >
                         <img src="/images/sr1_thumb.jpg"  alt="">
                         <br>
                         <span>Сертификат соответствия</span>
@@ -216,7 +217,7 @@ AppAsset::register($this);
 
                 </div>
                 <div class="col-md-2">
-                    <a href="#" >
+                    <a href="/pdf/sert_pozh.pdf" target="_blank" >
                         <img src="/images/sr_fire_01_thumb.jpg" alt="">
                         <br>
                         <span>Сертификат пажарной безопасности</span>
@@ -225,8 +226,8 @@ AppAsset::register($this);
                 </div>
 
                 <div class="col-md-2">
-                    <a href="#" >
-                        <img src="/images/gosstroy.png"  style='height:90px' alt="">
+                    <a href="/pdf/tech_svid.pdf" target="_blank">
+                        <img src="/images/tech-svid-icon.png"  style='height:90px' alt="">
                         <br>
                         <span>Техническое сфидетельство на материалы</span>
                     </a>

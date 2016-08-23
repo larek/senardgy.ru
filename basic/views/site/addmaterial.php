@@ -61,7 +61,7 @@ $this->params['SideMenu'] = TreeView::widget(['id' => $rootParent, 'guid' =>$gui
    <div class="col-sm-4 col-md-4">
      <a href="/penopolisterol">
       <div class="thumbnail">
-      <img src="/images/penopolisterol.jpg" alt="...">
+      <img src="/images/penp-1.jpg" alt="...">
         <div class="caption">
           <h3>Пенополистерол</h3>
         </div>

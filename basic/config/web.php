@@ -56,6 +56,7 @@ $config = [
                 'news/<id>' => 'news/view',
                 '/simple-page' => 'site/simple-page',
                 'getcolorlink' => 'site/getcolorlink',
+                'site/login' => 'site/login',
                 '/<guid>' => 'site/view',
                 '/<guid>/<colorslink>' => 'site/view',
                 '/' => 'site/index',
