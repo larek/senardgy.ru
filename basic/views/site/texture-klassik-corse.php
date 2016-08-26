@@ -24,7 +24,7 @@ $this->params['SideMenu'] = TreeView::widget(['id' => $rootParent, 'guid' =>$gui
 </div>
 
 <div class="">
-<?= Gallery::widget(['galleryId' => 6]);?>
+<?//= Gallery::widget(['galleryId' => 6]);?>
 </div>
 
 <div class="col-md-12">
