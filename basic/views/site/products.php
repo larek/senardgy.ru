@@ -112,7 +112,7 @@ $this->params['SideMenu'] = TreeView::widget(['id' => $rootParent, 'guid' => $gu
 					<span class='products_title'>Архитектурные детали</span>
 					<ul class="products_list">
 						<li>
-							<a href="/pdf/katalog-arhElem.pdf" target="_blank">Каталог архитектурных элементов PDF</a>
+							<a href="/pdf/katalog-arhElem-2.pdf" target="_blank">Каталог архитектурных элементов PDF</a>
 						</li>
 					</ul>
 					
