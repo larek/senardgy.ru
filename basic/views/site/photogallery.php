@@ -25,7 +25,7 @@ $this->params['SideMenu'] = TreeView::widget(['id' => $rootParent, 'guid' =>$gui
 <div class="col-sm-4 col-md-4">
   <a href="/vypolnennye-raboty">
    <div class="thumbnail">
-     <img src="http://placehold.it/240x180" alt="...">
+     <img src="/images/c25a49724df00ebca4f13dbfdd7adeb4.jpg" alt="...">
      <div class="caption">
        <h3>Наши возможности</h3>
      </div>
