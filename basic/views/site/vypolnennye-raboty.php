@@ -25,5 +25,5 @@ $this->registerJsFile('//assets.pinterest.com/js/pinit.js', ['depends' => [\yii\
 </div>
 
 <div class="">
-<a data-pin-do="embedBoard" data-pin-lang="ru" data-pin-board-width="690" data-pin-scale-height="600" data-pin-scale-width="150" href="https://ru.pinterest.com/bril007/%D0%90%D0%90%D0%90-%D1%81%D1%8D%D0%BD%D0%B5%D1%80%D0%B4%D0%B6%D0%B8"></a>
+<?= Gallery::widget(['galleryId' => 12]);?>
 </div>
