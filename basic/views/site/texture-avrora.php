@@ -22,6 +22,15 @@ $this->params['SideMenu'] = TreeView::widget(['id' => $rootParent, 'guid' =>$gui
 <div class="col-md-12">
     <?= $model->content?>
 </div>
+<div class="col-md-12">
+	<div class="panel panel-default">
+		<div class="panel-body">
+		<p class=""> Группа Компаний "Сэнарджи®" предоставляет для данной текстуры стандартный набор цветов из нашей колерной карты.</p>
+				<img src="/images/avrora2.jpg" class='img img-responsive' alt="">
+				<img src="/images/avrora1.jpg" class='img img-responsive' alt="">
+		</div>
+	</div>
+</div>
 
 <div class="">
 <?//= Gallery::widget(['galleryId' => 3]);?>
