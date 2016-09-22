@@ -33,11 +33,11 @@ class AppAsset extends AssetBundle
     ];
     public $js = [
         //'js/basf-jquery-1.3.2.js',
-        'js/init.js',
-        'js/msstring.js',
-        'js/non_ie.js',
-        'js/OpenPopup.js',
-        'js/swfobject.js',
+        // 'js/init.js',
+        // 'js/msstring.js',
+        // 'js/non_ie.js',
+        // 'js/OpenPopup.js',
+        // 'js/swfobject.js',
         'js/site.js',
         'fancybox/source/jquery.fancybox.js',
 
