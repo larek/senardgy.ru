@@ -211,7 +211,7 @@ AppAsset::register($this);
                     <a href="/pdf/sert_pozh.pdf" target="_blank" >
                         <img src="/images/sr_fire_01_thumb.jpg" alt="">
                         <br>
-                        <span>Сертификат пажарной безопасности</span>
+                        <span>Сертификат пожарной безопасности</span>
                     </a>
 
                 </div>
@@ -220,7 +220,7 @@ AppAsset::register($this);
                     <a href="/pdf/tech_svid.pdf" target="_blank">
                         <img src="/images/tech-svid-icon.png"  style='height:90px' alt="">
                         <br>
-                        <span>Техническое сфидетельство на материалы</span>
+                        <span>Техническое свидетельство на материалы</span>
                     </a>
 
                 </div>
