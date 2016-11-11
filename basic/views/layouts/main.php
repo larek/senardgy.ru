@@ -250,10 +250,10 @@ AppAsset::register($this);
 </div>
 
 <!-- RedConnect -->
-<!-- <script id="rhlpscrtg" type="text/javascript" charset="utf-8" async="async"
+<script id="rhlpscrtg" type="text/javascript" charset="utf-8" async="async"
 src="https://web.redhelper.ru/service/main.js?c=t9101029991"></script>
 <div style="display: none"><a class="rc-copyright" 
-href="http://redconnect.ru">Сервис обратного звонка RedConnect</a></div> -->
+href="http://redconnect.ru">Сервис обратного звонка RedConnect</a></div>
 <!--/RedConnect -->
 
 <!-- BEGIN JIVOSITE CODE {literal} -->
