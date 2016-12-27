@@ -30,7 +30,6 @@ $this->params['SideMenu'] = TreeView::widget(['id' => $rootParent, 'guid' =>$gui
         <li><a href="/opisanie-i-sostav-3">Описание и состав</a></li>
         <li><a href="/montaz-3">Монтаж</a></li>
         <li><a href="/trebovania-k-komponentam-3">Требования к компонентам</a></li>
-        <li><a href="/pismo-cniisk-3">Письмо ЦНИИСК</a></li>
         <li><a href="/mvs-node">Узлы</a></li>
 
       </ul>
