@@ -190,8 +190,15 @@ AppAsset::register($this);
 <footer>
     <div class="footer" id="footer">
         
-
-                <div class="col-md-3">
+                <div class="col-md-1"></div>
+                <div class="col-md-2">
+                    <a href="/files/units_and_details.dwg.rar">
+                        <img src="/images/doc1.gif"  alt="">
+                        <br>
+                        <span>Скачать узлы и детали в AVTOCAD</span>
+                    </a>
+                </div>
+                <div class="col-md-2">
                     <a href="/pdf/Album_TR.pdf" target='_blank'>
                         <img src="/images/doc1.gif"  alt="">
                         <br>
@@ -199,7 +206,7 @@ AppAsset::register($this);
                     </a>
 
                 </div>
-                 <div class="col-md-3">
+                 <div class="col-md-2">
                     <a href="/pdf/sert.pdf" target="_blank" >
                         <img src="/images/sr1_thumb.jpg"  alt="">
                         <br>
@@ -207,7 +214,7 @@ AppAsset::register($this);
                     </a>
 
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-2">
                     <a href="/pdf/sert_pozh.pdf" target="_blank" >
                         <img src="/images/sr_fire_01_thumb.jpg" alt="">
                         <br>
@@ -216,7 +223,7 @@ AppAsset::register($this);
 
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-md-2">
                     <a href="/pdf/tech_svid-2.pdf" target="_blank">
                         <img src="/images/tech-svid-icon.png"  style='height:90px' alt="">
                         <br>
