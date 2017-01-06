@@ -57,6 +57,7 @@ $config = [
                 '/simple-page' => 'site/simple-page',
                 'getcolorlink' => 'site/getcolorlink',
                 'site/login' => 'site/login',
+                '/sendmessage' => 'site/callback',
                 '/<guid>' => 'site/view',
                 '/<guid>/<colorslink>' => 'site/view',
                 '/' => 'site/index',

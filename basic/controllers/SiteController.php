@@ -159,11 +159,18 @@ class SiteController extends Controller
 
     public function actionCallback(){
 
-            echo Yii::$app->mail->compose('layouts/callback',['name' => $_GET['name'], 'company' => $_GET['company'], 'phone' => $_GET['phone'], 'email' => $_GET['email'], 'subject' => $_GET['subject'], 'message' => $_GET['message']])
-            ->setFrom(['saitom@yandex.ru' => 'formulakd.ru'])
-            ->setTo(['t9101029991@gmail.com'])
-            ->setSubject('Обратный звонок с сайта')
-            //->setHtmlBody('Заказ - <a href="http://'.$_SERVER['SERVER_NAME'].$url.'">Ссылка на заказ</a>')
+            echo Yii::$app->mail->compose('layouts/callback',
+                [
+                    'name' => $_GET['name'], 
+                    'company' => $_GET['company'], 
+                    'phone' => $_GET['phone'],
+                    'email' => $_GET['email'],
+                    'subject' => $_GET['subject'],
+                    'message' => $_GET['message']
+                ])
+            ->setFrom(['saitom@yandex.ru' => 'senardgy.ru'])
+            ->setTo(['t9101029991@gmail.com','bonus2051@yandex.ru'])
+            ->setSubject('Обратная связь с сайта')
             ->send();
 
     }
