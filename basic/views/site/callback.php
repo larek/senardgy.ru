@@ -2,7 +2,7 @@
 use app\components\SideMenu;
 use yii\helpers\Html;
 
-$this->registerJsFile("/js/callback.js",['depends' => [\yii\web\JqueryAsset::className()]]);
+$this->registerJsFile("/js/callback.js?v=1.0.1",['depends' => [\yii\web\JqueryAsset::className()]]);
 $this->title = $title;
 $this->params['breadcrumbs'] = ['label' => $model->title];
 ?>
@@ -17,6 +17,7 @@ $this->params['breadcrumbs'] = ['label' => $model->title];
 </div>
 
 <div class="col-md-6" >
+<div class="row">
     <div class="form-area">  
         <br style="clear:both">
                     
@@ -43,12 +44,12 @@ $this->params['breadcrumbs'] = ['label' => $model->title];
         <button type="button" id="submit" name="submit" class="btn btn-primary pull-right btn-callback">Отправить</button>
         
     </div>
-</div>
-
-<br><br>
-
-<div class="col-md-12">
+ </div>
+ <br><br>
+<div class="row">
 	<div class="alert alert-success" style='display: none'>
-        	Спасибо за обращение, в ближайшее время мы свяжемся с вами.
-        </div>
+    	Спасибо за обращение, в ближайшее время мы свяжемся с вами.
+    </div>
 </div>
+</div>
+
