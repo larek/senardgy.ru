@@ -85,13 +85,14 @@ $this->params['SideMenu'] = TreeView::widget(['id' => $rootParent, 'guid' => $gu
 			<td><img src="/images/products_05_textured.jpg" alt="" class='products_item_img'> </td>
 			<td>
 				<div class='products_item_wrap' style='width:524px'>
-					<span class='products_title'>Фасадные и интерьерные декоративно-защитные штукатурки</span>
+					<span class='products_title'>Фасадные и интерьерные декоративно-защитные штукатурки и краски</span>
 					<ul class="products_list">
 						<li><a href="/senardzir-klassik-amadej-senardzir-klassik-senardzir-klasik-kors">Сэнарджи® Классик Амадей, Сэнарджи® Классик, Сэнарджи® Класик Корс
 </a></li>
 						<li><a href="/senardzir-send-i-senardzir-sahara">"Сэнарджи® Сэнд" и "Сэнарджи® Сахара"</a></li>
 						<li><a href="/senardzir-fristajl">"Сэнарджи® Фристайл"</a></li>
 						<li><a href="/senardzir-avrora-senardzir-avrora-star-senardzir-avrora-kors">"Сэнарджи® Аврора", "Сэнарджи® Аврора Стар", "Сэнарджи® Аврора Корс"</a></li>
+						<li><a href="/senardzir-spektr">"Сэнарджи® Спектр"</a></li>
 					</ul>
 				</div>
 			</td>
