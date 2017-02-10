@@ -36,7 +36,7 @@ AppAsset::register($this);
                             
                             <tr>
                             
-                                <td><span class="glyphicon glyphicon-map-marker"></span> Н.Новгород - 8 (831) 220-24-24 | 8 (831) 220-24-67 (68, 69)</td>
+                                <td><span class="glyphicon glyphicon-map-marker"></span> Н.Новгород - 8 (831) 220-24-24 &nbsp;&nbsp;&nbsp; <span class="glyphicon glyphicon-map-marker"></span> Москва - 8 (495) 741-20-17</td>
                             </tr>
                          
                             
@@ -44,20 +44,7 @@ AppAsset::register($this);
                         </tbody>
         </table>
         </div>
-        <div class="col-md-4">
-        <table class='header_contact'>
-                        <tbody>
-                            
-                            
-                            <tr>
-                                <td><span class="glyphicon glyphicon-map-marker"></span> Москва - 8 (495) 741-20-17</td>
-                                <td> </td>
-                            </tr>
-                            
-                           
-                        </tbody>
-        </table>
-        </div>
+        
     </div>
     <table class="tblContent" cellpadding="0" cellspacing="0">
         <tr>
