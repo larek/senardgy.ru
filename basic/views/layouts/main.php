@@ -177,7 +177,6 @@ AppAsset::register($this);
 <footer>
     <div class="footer" id="footer">
         
-                <div class="col-md-1"></div>
                 <div class="col-md-2">
                     <a href="/files/units_and_details.dwg.rar">
                         <img src="/images/doc1.gif"  alt="">
@@ -215,6 +214,24 @@ AppAsset::register($this);
                         <img src="/images/tech-svid-icon.png"  style='height:90px' alt="">
                         <br>
                         <span>Техническое свидетельство</span>
+                    </a>
+
+                </div>
+
+                <div class="col-md-2">
+                    <a href="/pdf/sert-quality.pdf" target="_blank">
+                        <img src="/images/tech-svid-icon.png"  style='height:90px' alt="">
+                        <br>
+                        <span>Системы менеджмента качества</span>
+                    </a>
+
+                </div>
+
+                <div class="col-md-2">
+                    <a href="/pdf/sert-world-standart.pdf" target="_blank">
+                        <img src="/images/tech-svid-icon.png"  style='height:90px' alt="">
+                        <br>
+                        <span>Международный стандарт качества</span>
                     </a>
 
                 </div>
