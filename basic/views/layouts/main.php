@@ -177,15 +177,9 @@ AppAsset::register($this);
 <footer>
     <div class="footer" id="footer">
         
+               
                 <div class="col-md-2">
-                    <a href="/files/units_and_details.dwg.rar">
-                        <img src="/images/doc1.gif"  alt="">
-                        <br>
-                        <span>Скачать узлы и детали в AVTOCAD</span>
-                    </a>
-                </div>
-                <div class="col-md-2">
-                    <a href="/pdf/Album_TR.pdf" target='_blank'>
+                    <a href="/documentation-album" target='_blank'>
                         <img src="/images/doc1.gif"  alt="">
                         <br>
                         <span>Альбом технических решений</span>
