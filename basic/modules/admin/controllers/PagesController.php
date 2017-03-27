@@ -8,6 +8,8 @@ use app\models\Pages;
 use app\models\PagesSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
+use yii\helpers\ArrayHelper;
+use yii\helpers\Html;
 use yii\filters\VerbFilter;
 
 /**
@@ -44,13 +46,20 @@ class PagesController extends Controller
      */
     public function actionIndex()
     {
-        
-        $searchModel = new PagesSearch();
-        $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+
+        $model = Pages::find()->all();
+        $pagesArray = ArrayHelper::toArray($model, [
+            'app\models\Pages' => [
+                'name' => function($model){
+                    return Html::a($model->title,['update','id' => $model->id]);
+                },
+                'id' => 'id',
+                'pid' => 'parent_id'
+            ],
+        ]);
 
         return $this->render('index', [
-            'searchModel' => $searchModel,
-            'dataProvider' => $dataProvider,
+            'pagesArray' => $pagesArray
         ]);
     }
 

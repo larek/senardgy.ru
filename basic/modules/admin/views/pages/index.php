@@ -19,22 +19,27 @@ $this->params['breadcrumbs'][] = $this->title;
         <?= Html::a('Создать страницу', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
-    <?= GridView::widget([
-        'dataProvider' => $dataProvider,
-        'filterModel' => $searchModel,
-        'columns' => [
-            //['class' => 'yii\grid\SerialColumn'],
+    <?
+        function get_tree($tree, $pid)
+    {
+        $html = '';
+     
+        foreach ($tree as $row)
+        {
+            if ($row['pid'] == $pid)
+            {
+                $html .= '<li>' . "\n";
+                $html .= '    ' . $row['name'] . "\n";
+                $html .= '    ' . get_tree($tree, $row['id']);
+                $html .= '</li>' . "\n";
+            }
+        }
+     
+        return $html ? '<ul class="tree">' . $html . '</ul>' . "\n" : '';
+    }
+    ?>
+    
+        <?= get_tree($pagesArray,0);?>
 
-            'id',
-            //'parent_id',
-            'title',
-            //'content:ntext',
-            //'seo_title',
-            // 'seo_description:ntext',
-            // 'seo_keywords',
-
-            ['class' => 'yii\grid\ActionColumn'],
-        ],
-    ]); ?>
-
+    
 </div>

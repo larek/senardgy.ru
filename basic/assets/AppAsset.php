@@ -23,7 +23,7 @@ class AppAsset extends AssetBundle
         'css/core.css',
         'css/Menu.css',
         'css/PopupStyles.css',
-        'css/site.css',
+        'css/site.css?v=1.0.1',
         'css/themeblue.css',
         'css/themeblue_new_updated.css',
         'css/typo.css',
