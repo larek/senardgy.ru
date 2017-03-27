@@ -28,7 +28,7 @@ AdminAsset::register($this);
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => 'Формула КД. Управление контентом.',
+        'brandLabel' => 'Сэнарджи. Управление контентом.',
         'brandUrl' => '/admin',
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top',
