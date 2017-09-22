@@ -187,10 +187,10 @@ AppAsset::register($this);
 
                 </div>
                  <div class="col-md-2">
-                    <a href="/pdf/sert.pdf" target="_blank" >
+                    <a href="/pdf/senardgy_sert-2017-09-22.pdf" target="_blank" >
                         <img src="/images/sr1_thumb.jpg"  alt="">
                         <br>
-                        <span>Сертификат соответствия</span>
+                        <span>Сертификаты соответствия</span>
                     </a>
 
                 </div>
