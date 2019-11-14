@@ -169,7 +169,7 @@ class SiteController extends Controller
                     'message' => $_GET['message']
                 ])
             ->setFrom(['saitom@yandex.ru' => 'senardgy.ru'])
-            ->setTo(['t9101029991@gmail.com','bonus2051@yandex.ru'])
+            ->setTo(['t9101029991@gmail.com','bonus2051@yandex.ru','senardgy@yandex.ru'])
             ->setSubject('Обратная связь с сайта')
             ->send();
 
