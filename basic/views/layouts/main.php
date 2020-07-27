@@ -221,15 +221,6 @@ AppAsset::register($this);
 
                 </div>
 
-                <div class="col-md-2">
-                    <a href="/pdf/sert-world-standart.pdf" target="_blank">
-                        <img src="/images/tech-svid-icon.png"  style='height:90px' alt="">
-                        <br>
-                        <span>Международный стандарт качества</span>
-                    </a>
-
-                </div>
-
                 
                 
            
