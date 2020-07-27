@@ -187,7 +187,7 @@ AppAsset::register($this);
 
                 </div>
                  <div class="col-md-2">
-                    <a href="/pdf/senardgy_sert-2018-06-26.pdf" target="_blank" >
+                    <a href="/pdf/senardgy-cert-2020-07-27.pdf" target="_blank" >
                         <img src="/images/sr1_thumb.jpg"  alt="">
                         <br>
                         <span>Сертификаты соответствия</span>
