@@ -187,7 +187,7 @@ AppAsset::register($this);
 
                 </div>
                  <div class="col-md-2">
-                    <a href="/pdf/senardgy-cert-2020-07-27.pdf" target="_blank" >
+                    <a href="/pdf/senardgy-cert-2020.pdf" target="_blank" >
                         <img src="/images/sr1_thumb.jpg"  alt="">
                         <br>
                         <span>Сертификаты соответствия</span>
@@ -217,6 +217,15 @@ AppAsset::register($this);
                         <img src="/images/senardgy-quality-thumb.jpg"  style='height:90px' alt="">
                         <br>
                         <span>Система менеджмента качества</span>
+                    </a>
+
+                </div>
+        
+                <div class="col-md-2">
+                    <a href="/pdf/senardgy-climatic-2020.pdf" target="_blank">
+                        <img src="/images/senardgy-climatic-2020-thumbnail.png"  style='height:90px' alt="">
+                        <br>
+                        <span>Климатические испытания</span>
                     </a>
 
                 </div>
