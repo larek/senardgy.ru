@@ -239,12 +239,19 @@ AppAsset::register($this);
     
     <div class="footer-bottom">
         <div class="footer_bottom_container">
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <p>© Группа Компаний "Сэнарджи-НН" <br> Все права защищены. <?= date("Y");?> г.</p>
             </div>
 
-            <div class="col-md-6">    
-                <a href="http://www.tehocenka.ru/registry/fasadnye-sistemy-s-tonkim-narujnym-shtukaturnym-sloem/shtukaturnye-fasadnye-sistemy-na-akrilovoi-osnove" target='_blank'><img src="/images/logo-tehocenka.png" style="width: 126px;" alt=""></a>
+            <div class="col-md-4">    
+                <a href="http://www.tehocenka.ru/registry/fasadnye-sistemy-s-tonkim-narujnym-shtukaturnym-sloem/shtukaturnye-fasadnye-sistemy-na-akrilovoi-osnove" target='_blank'>
+                    <img src="/images/logo-tehocenka.png" style="width: 126px;" alt="">
+                </a>
+            </div>
+            <div class='col-md-4'>
+                <a href="https://master-official.ru/">
+                    <img src='/images/master-climate-logo.jpg' style="width: 126px;" />
+                </a>
             </div>
 
         </div>
