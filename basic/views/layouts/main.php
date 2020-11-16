@@ -249,7 +249,7 @@ AppAsset::register($this);
                 </a>
             </div>
             <div class='col-md-2'>
-                <a href="https://master-official.ru/">
+                <a href="https://master-official.ru/" target="_blank">
                     <img src='/images/master-climate-logo.jpg' style="height: 35px;" />
                 </a>
             </div>
