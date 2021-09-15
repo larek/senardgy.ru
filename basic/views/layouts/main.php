@@ -207,7 +207,7 @@ AppAsset::register($this);
                     <a href="/pdf/tech_svid-3.pdf" target="_blank">
                         <img src="/images/tech-svid-icon.png"  style='height:90px' alt="">
                         <br>
-                        <span>Техническое свидетельство</span>
+                        <span>Сертификаты соответствия систем</span>
                     </a>
 
                 </div>
