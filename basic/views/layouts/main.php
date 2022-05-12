@@ -195,7 +195,7 @@ AppAsset::register($this);
 
                 </div>
                 <div class="col-md-2">
-                    <a href="/pdf/sert_pozh_2022.pdf" target="_blank" >
+                    <a href="/pdf/senardgy-fire-cert.pdf" target="_blank" >
                         <img src="/images/sr_fire_01_thumb.jpg" alt="">
                         <br>
                         <span>Сертификат пожарной безопасности</span>
