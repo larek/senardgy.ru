@@ -204,7 +204,7 @@ AppAsset::register($this);
                 </div>
 
                 <div class="col-md-2">
-                    <a href="/pdf/tach-svid-4.pdf" target="_blank">
+                    <a href="/pdf/tech-svid-5.pdf" target="_blank">
                         <img src="/images/tech-svid-icon.png"  style='height:90px' alt="">
                         <br>
                         <span>Сертификаты соответствия систем</span>
