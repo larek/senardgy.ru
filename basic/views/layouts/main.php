@@ -179,7 +179,7 @@ AppAsset::register($this);
         
                
                 <div class="col-md-2">
-                    <a href="/documentation-album" target='_blank'>
+                    <a href="/documentation-album">
                         <img src="/images/doc1.gif"  alt="">
                         <br>
                         <span>Альбом технических решений</span>
