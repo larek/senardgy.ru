@@ -213,7 +213,7 @@ AppAsset::register($this);
                 </div>
 
                 <div class="col-md-2">
-                    <a href="/pdf/senardgy-quality-2023.pdf" target="_blank">
+                    <a href="/pdf/senardgy-quality-2023-2.pdf" target="_blank">
                         <img src="/images/senardgy-quality-thumb.jpg"  style='height:90px' alt="">
                         <br>
                         <span>Система менеджмента качества</span>
