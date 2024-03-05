@@ -187,7 +187,7 @@ AppAsset::register($this);
 
                 </div>
                  <div class="col-md-2">
-                    <a href="/pdf/senardgy-cert-2020.pdf" target="_blank" >
+                    <a href="/pdf/senardgy-cert-2024.pdf" target="_blank" >
                         <img src="/images/sr1_thumb.jpg"  alt="">
                         <br>
                         <span>Сертификаты соответствия</span>
@@ -204,7 +204,7 @@ AppAsset::register($this);
                 </div>
 
                 <div class="col-md-2">
-                    <a href="/pdf/tech-svid-5.pdf" target="_blank">
+                    <a href="/pdf/senardgy-cert-system-2024.pdf" target="_blank">
                         <img src="/images/tech-svid-icon.png"  style='height:90px' alt="">
                         <br>
                         <span>Сертификаты соответствия систем</span>
