@@ -49,7 +49,7 @@ $this->params['breadcrumbs'][] = ['label' => $model->title];
                             
                             <tr>
                                 <td><span class="glyphicon glyphicon-map-marker"></span></td>
-                                <td>Москва,&nbsp;3-й проезд Марьиной Рощи, дом 40, стр.1, оф. 506</td>
+                                <td>Москва,&nbsp;3-й проезд Марьиной Рощи, дом 40, строение 1, комната № 7 (офис 507)</td>
                             </tr>
                             <tr>
                                 <td><span class="glyphicon glyphicon-earphone"></span></td>
