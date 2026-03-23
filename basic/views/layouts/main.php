@@ -220,15 +220,7 @@ AppAsset::register($this);
                     </a>
 
                 </div>
-        
-                <div class="col-md-2">
-                    <a href="/pdf/senardgy-climatic-2020.pdf" target="_blank">
-                        <img src="/images/senardgy-climatic-2020-thumbnail.png"  style='height:90px' alt="">
-                        <br>
-                        <span>Климатические испытания</span>
-                    </a>
-
-                </div>
+    
 
                 
                 
